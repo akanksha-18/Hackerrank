@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Open Sans", sans-serif;
+}
+header .header-top{
+    height: 7vh;
+    background: linear-gradient(to right, #050C1B, #1A4055 15%, #1A4055 35%, #050C1B 50%);
+    display: flex;
+    justify-content: flex-end; /* Align to the right */
+    align-items: center; 
+    gap: 0.9rem;
+}
+.header-top p{
+    color: rgb(172, 166, 166);
+    padding-top: 1rem;
+    
+}
+.right{
+    padding-right: 20rem;
+}
+.menu{
+    display: flex;
+    padding: 1rem 12rem;
+    gap: 5rem;
+    margin: auto;
+}
+.menu img{
+    height: auto;
+    width: 10%;
+    margin-right: 10px;
+}
+.menu a{
+    font-weight: 700;
+}
+.menu .space{
+    padding-left: 2rem;
+}
+
+/* .hero {
+    display: flex;
+    position: relative;
+    height: 90vh;
+    background-color:white;
+    overflow: hidden; 
+    background: linear-gradient(rgba(234, 243, 246, 0.4) 0%, rgba(205, 237, 247, 0.1) 50%, rgba(173, 216, 230, 0.4) 100%);
+    
+}
+.hero .content h1{
+     font-weight: 1000;
+}
+ */
+
+ .hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 90vh;
+    overflow: hidden;
+    background: linear-gradient(rgba(253, 254, 255, 0.4) 0%, rgba(205, 237, 247, 0.1) 50%, rgba(173, 216, 230, 0.4) 100%);
+}
+
+.hero .content {
+    text-align: center;
+    color: black ;
+}
+
+.hero .content h1 {
+    font-size: 5rem; 
+    font-weight: 900;
+    color: rgb(57, 51, 51) 
+}
+.hero .content a {
+    display: inline-block;
+    padding: 1rem 3rem;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    font-size: 1rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+    background-color:white;
+    border: 0.1rem solid black;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.hero .content a.green {
+    background-color: green; 
+    border-color: green; 
+    padding: 1rem 3rem;
+    margin-right: 1rem; 
+}
+
+.hero .content p {
+    margin-top: 1.25rem;
+    font-size: 1.225rem;
+    color: rgb(121, 113, 113);
+}
+
+.hero .content .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.25rem;
+}
+
+.hero .content .logo img {
+    height: 4rem; 
+    width: 6rem; 
+    margin: 0 1rem;
+}
+.Second {
+    text-align: center;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Second .lightgreen{
+    color: green;
+}
+
+.Second h2 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    font-weight: 300;
+}
+
+.Second p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+    color: rgb(121, 113, 113);
+}
+
+ /* .Second a {
+    display: inline-block;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: #fff;
+    background-color: #1A4055;
+    border: 0.2rem solid #1A4055;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s, color 0.3s;
+    margin: 0 0.5rem; 
+}  */
+.links{
+    display: flex;
+    flex-direction: row;
+    gap: 15rem;
+    color: black;
+    font-size: 1rem;
+    font-weight: 900;
+}
+.Second a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
