@@ -449,25 +449,23 @@ header .header-top{
 }
 .interviews .tools{
     display: flex;
-    flex-direction: row;
-    gap:15%;
-    justify-content: space-evenly; 
+    width: 100%;
+    justify-content: space-between;
     align-items: center;
 }
 .interviews .tools img {
-    width: 100%; 
-    max-width: 150px; 
+    height: auto;
+    vertical-align: middle;
+    max-width: calc(100%/7);
 }
 
-
-.last-image-container {
-    margin: auto; 
-    padding-top: 1%;
+.interviews .last-image{
+    margin-top: 36px;
+    text-align: center;
+    position: relative;
+   
 }
-
-.last-image {
-    width: 70%; 
-    height: 30%;
-    margin-left: 15%; 
-    display: block; 
+.interviews .last-image img{
+    max-width: 1084px;
+    width: 100%;
 }
