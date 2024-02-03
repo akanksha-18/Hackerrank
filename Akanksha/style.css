@@ -313,17 +313,17 @@ header .header-top{
     right: 6rem;
     width: 40%;
     height: 60vh;
-    animation: slideInFromRight 3s ease-in-out infinite; 
+    /* animation: slideInFromRight 3s ease-in-out infinite;  */
 }
 
-@keyframes slideInFromRight {
+/* @keyframes slideInFromRight {
     0% {
         transform: translateX(100%); 
     }
     100% {
         transform: translateX(0); 
     }
-}
+} */
 
 .Focus {
     display: flex;
@@ -360,9 +360,9 @@ header .header-top{
     right: 6rem;
     width: 40%;
     height: 60vh;
-    animation: slideInFromRight 3s ease-in-out infinite;
+    /* animation: slideInFromRight 3s ease-in-out infinite; */
 }
-
+/* 
 @keyframes slideInFromRight {
     0% {
         transform: translateX(100%);
@@ -370,7 +370,7 @@ header .header-top{
     100% {
         transform: translateX(0);
     }
-}
+} */
 .Contenders {
     display: flex;
     height: 60vh;
@@ -406,17 +406,17 @@ header .header-top{
     right: 6rem;
     width: 40%;
     height: 60vh;
-    animation: slideInFromRight 3s ease-in-out infinite;
+    /* animation: slideInFromRight 3s ease-in-out infinite; */
 }
 
-@keyframes slideInFromRight {
+/* @keyframes slideInFromRight {
     0% {
         transform: translateX(100%);
     }
     100% {
         transform: translateX(0);
     }
-}
+} */
 .interviews{
     display: flex;
     flex-direction: column;
@@ -468,4 +468,14 @@ header .header-top{
 .interviews .last-image img{
     max-width: 1084px;
     width: 100%;
+}
+.about{
+    margin: 0 auto;
+    max-width: 1180px;
+}
+.about .content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: start;
 }
