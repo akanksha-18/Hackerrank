@@ -215,8 +215,9 @@ header .hamburger{
 }
 
 .hero .content h1 {
-    font-size: 5rem; 
-    font-weight: 900;
+    padding-top: 3rem;
+    font-size: 4rem; 
+    font-weight: 800;
     color: rgb(57, 51, 51) 
 }
 .hero .content a {
