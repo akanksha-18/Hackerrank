@@ -2,35 +2,82 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body{
     font-family: "Open Sans", sans-serif;
 }
-header .header-top{
-    height: 7vh;
-    background: linear-gradient(to right, #050C1B, #1A4055 15%, #1A4055 35%, #050C1B 50%);
-    display: flex;
-    justify-content: flex-end; /* Align to the right */
-    align-items: center; 
-    gap: 0.9rem;
+
+header {
+    width: 100%;
+    padding: 0;
+    margin: 0; 
 }
-.header-top p{
-    color: rgb(172, 166, 166);
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+
+.products{
+    cursor: pointer;
+    
 }
-.header-top a{
-    color: rgb(172, 166, 166);
-    text-decoration: none;
-    font-size: 1.2rem;
-}
-.header-top a:visited {
-    color: rgb(172, 166, 166);
-    text-decoration: none;
-}
-.right{
-    padding-right: 20rem;
-}
+.product-content {
+    display: none;
+    position: absolute;
+    background-color: #fff; 
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding: 20px; 
+    max-width: 300px; 
+    color: gray;
+  }
+
+ 
+  .products:hover .product-content {
+    display: block;
+    
+  }
+  .products:hover{
+    color:#068932;
+  }
+
+  .solution-content{
+    display: none;
+    position: absolute;
+    background-color: #fff; 
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding: 20px; 
+    max-width: 300px;
+    color: gray; 
+  }
+  .solutions{
+    cursor: pointer;
+  }
+ 
+  .solutions:hover .solution-content {
+    display: block;
+  }
+  .solutions:hover{
+    color:#068932
+  }
+  .resource-content {
+    display: none;
+    position: absolute;
+    background-color: #fff; 
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding: 20px; 
+    max-width: 300px; 
+    color: gray;
+  }
+  .resources{
+    cursor: pointer;
+  }
+ 
+  .resources:hover .resource-content {
+    display: block;
+  }
+  .resources:hover{
+    color: #068932;
+  }
 /* .menu{
     display: flex;
     padding: 1rem 12rem;
@@ -52,7 +99,7 @@ header .header-top{
 .site-header {
     height: 9vh;
     width: 100%;
-    max-width: 1224px;
+    /* max-width: 1224px; */
     margin: 0 auto;
     background-color: #fff;
     color: #000;
@@ -61,6 +108,8 @@ header .header-top{
     align-items: center;
     position: sticky;
     top: 0;
+    z-index: 1;
+    padding: 2rem 2rem;
 }
 
 .logo img {
@@ -256,8 +305,8 @@ header .hamburger{
     position: relative;
     background-color: #111621;
     font-size: 1.2em;
-    height: 60vh;
-    width: 80%;
+    height: 70vh;
+    width: 78%;
     margin: 1rem auto;
 }
 
@@ -379,7 +428,7 @@ header .hamburger{
 .binary {
     display: flex;
     height: 60vh;
-    padding: 25rem 15rem 5rem 15rem; 
+    padding: 30rem 15rem 5rem 15rem; 
     position: relative; 
 }
 
@@ -407,10 +456,10 @@ header .hamburger{
 
 .binary img:last-child {
     position: absolute;
-    top: 18rem;
+    top: 25rem;
     right: 6rem;
     width: 40%;
-    height: 60vh;
+    height: 50vh;
     /* animation: slideInFromRight 3s ease-in-out infinite;  */
 }
 
@@ -426,7 +475,7 @@ header .hamburger{
 .Focus {
     display: flex;
     height: 60vh;
-    padding: 5rem 15rem 5rem 15rem; /* Adjusted top padding */
+    padding: 25rem 15rem 15rem 15rem; /* Adjusted top padding */
     position: relative;
 }
 
@@ -454,10 +503,10 @@ header .hamburger{
 
 .Focus img:last-child {
     position: absolute;
-    top: 2rem; 
+    top: 20rem; 
     right: 6rem;
     width: 40%;
-    height: 60vh;
+    height: 50vh;
     /* animation: slideInFromRight 3s ease-in-out infinite; */
 }
 /* 
@@ -472,7 +521,7 @@ header .hamburger{
 .Contenders {
     display: flex;
     height: 60vh;
-    padding: 5rem 15rem 5rem 15rem; /* Adjusted top padding */
+    padding: 8rem 15rem 5rem 15rem; /* Adjusted top padding */
     position: relative;
 }
 
@@ -500,10 +549,10 @@ header .hamburger{
 
 .Contenders img:last-child {
     position: absolute;
-    top: 2rem; 
+    top: 8rem; 
     right: 6rem;
     width: 40%;
-    height: 60vh;
+    height: 50vh;
     /* animation: slideInFromRight 3s ease-in-out infinite; */
 }
 
@@ -595,6 +644,8 @@ header .hamburger{
     margin-right: auto;
 }  
 .about .logos{ 
+    display: flex;
+    flex-direction: row;
    text-align: center;
     margin-top: 24px;
 }
@@ -662,7 +713,7 @@ header .hamburger{
     text-decoration: none;
     font-weight: 400;
 }
-.footer {
+/* .footer {
     background-color: #f8f8f8;
     padding: 40px 0;
 }
@@ -731,4 +782,4 @@ header .hamburger{
 
 .privacy-link:hover {
     color: #1ba94c;
-}
+} */

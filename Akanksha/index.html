@@ -4,62 +4,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HackerRank</title>
-    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="Images/fevicon.png">
-      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
-    <header>
-        <div class="header-top">
-            <p><a href="https://akanksha-18.github.io/Hackerrank/Anchit/contact_us.html">contact us</a></p>
-            <p>|</p>
-            <p class="right"><a href="#">Log In</a></p>
+    <nav class="h-[5.5vh] bg-gradient-to-r from-black from-0% via-[rgb(26,64,85)] via-20%  to-black to-90%  text-[rgb(183,201,204)] text-[1rem] flex justify-end pr-[12rem] items-center">
+        <div class="px-4"><a href="https://akanksha-18.github.io/Hackerrank/Anchit/contact_us.html">Contact Us</a></div>
+        <div class="px-4  border-l-2 border-[hsl(189,17%,76%)]"><a href="">Log in</a></div>
+    </nav>
+
+        <header class="h-[9vh] w-full mx-auto bg-white text-black flex justify-between items-center sticky top-0 z-40">
+        <div class="flex">
+            <img src="Images/hackerrank_logo.png" class="w-[168px] h-[20px]  ml-40 !important">
+        </div>
+        <div class="flex shrink gap-x-8 font-semibold text-lg ml-40 !important">
+            <div class="products">
+                <p>Products</p>
+                <div class="product-content">
+                  <p>Save time and accelerate your hiring.</p>
+                  <p>Conduct stellar technical interviews.</p>
+                  <p>Launch standardized, role-based tests in minutes.</p>
+                  <p>Ensure fairness with AI-powered plagiarism detection.</p>
+                  <p>Assess technical hires with real-world coding questions.</p>
+                </div>
+              </div>
+              <div class="solutions">
+                <p>Solutions</p>
+                <div class="solution-content">
+                    <p>What We Do</p>
+                    <p>Set Up Your Skills Strategy</p>
+                    <p>Showcase Your Talent Brand</p>
+                    <p>Optimize Your Hiring Process</p>
+                    <p>Mobilize Your Internal Talent</p>
+                    <p>Embrace AI</p>
+                    <p>Use Cases</p>
+                   <p>Remote Hiring</p>
+                   <p>University Hiring</p>
+                </div>
+              </div>
+              <div class="resources">
+                <p>Resources</p>
+                <div class="resource-content">
+                    <p>Blog</p>
+                    <p>Hiring best practices, job-hunting tips, and industry insights.</p>
+                    
+                    <p>Roles Directory</p>
+                    <p>Explore the definitive directory of tech roles.</p>
+                    
+                    <p>Resource Library</p>
+                    <p>Guides, datasheets, and data-driven content for making the best hires.</p>
+                    
+                    <p>Customer Stories</p>
+                    <p>Discover how leading companies use HackerRank to hire technical talent.</p>
+                    
+                    <p>Product Help</p>
+                    <p>Partners</p>
+                </div>
+              </div>
+        
+            <p>Pricing</p>
+        </div>
+        <div class="flex">
+        
+        </div>
+        <div class="flex items-center gap-x-4 font-semibold text-lg mr-40">
+            <a href="" class="px-4  border-r-2 border-[rgb(0,0,0)]">For developers</a>
+            <a href="" class="px-3 pt-2 pb-2.5  bg-[rgb(247,247,247)] rounded text-center">Request demo</a>
+            <a href="" class="px-3 pt-2 pb-2.5 bg-[rgb(6,137,50)] text-white rounded text-center">Sign up</a>
         </div>
     </header>
     
-    <header class="site-header">
-        <div class="logo">
-            <img src="Images/hackerrank_logo.png" alt="HackerRank Logo">
-        </div>
-        <nav class="nav-links">
-            <!-- <p>Products</p> -->
-            <div class="nav-item">
-                <p>Products</p>
-                <div class="dropdown-container">
-                    <div class="dropdown-content">
-                        <h4>Screen</h4>
-                        <p>Save time and accelerate your hiring.</p>
-                        <h4>Interview</h4>
-                        <p>Conduct stellar technical interviews.</p>
-                        <h4>Certified Assessments</h4>
-                        <p>Launch standardized, role-based tests in minutes.</p>
-
-                        <h4>Plagiarism Detection</h4>
-                        <p>Ensure fairness with AI-powered plagiarism detection.</p>
-
-                         <h4>Real World Questions</h4>
-                         <p>Assess technical hires with real-world coding questions.</p>
-
-
-                    </div>
-                </div>
-            </div>
-            <p>Solutions</p>
-            <p>Resources</p>
-            <p>Pricing</p>
-        </nav>
-        <div class="user-actions">
-            <a href="" class="nav-link">For developers</a>
-            <a href="" class="btn demo-btn">Request demo</a>
-            <a href="" class="btn signup-btn">Sign up</a>
-        </div>
-        <div class="hamburger">
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar3"></div>
-        </div>
-    </header>
     <section class="hero">
         <div class="content">
         <h1>Skills speak louder <br> than words</h1>
@@ -224,77 +240,141 @@
             </div>
         </div>
     </section>
-    <footer class="footer">
-        <div class="footer-content">
-            <div class="footer-section">
-                <h2>PRODUCTS</h2>
-                <ul>
-                    <li><a href="#">Screen</a></li>
-                    <li><a href="#">Interview</a></li>
-                    <li><a href="#">Certified Assessments</a></li>
-                    <li><a href="#">Plagiarism Detection</a></li>
-                </ul>
-            </div>
-
-            <div class="footer-section">
-                <h2>SOLUTIONS</h2>
-                <ul>
-                    <li><a href="#">Set Up a Skills Strategy</a></li>
-                    <li><a href="#">Showcase Your Talent Brand</a></li>
-                    <li><a href="#">Optimize Your Hiring Process</a></li>
-                    <li><a href="#">Mobilize Your Internal Talent</a></li>
-                    <li><a href="#">Embrace AI</a></li>
-                </ul>
-            </div>
-
-            <div class="footer-section">
-                <h2>RESOURCES</h2>
-                <ul>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Customer Stories</a></li>
-                    <li><a href="#">Roles Directory</a></li>
-                    <li><a href="#">Partners</a></li>
-                    <li><a href="#">Integrations</a></li>
-                    <li><a href="#">What’s New</a></li>
-                </ul>
-            </div>
-
-            <div class="footer-section">
-                <h2>ABOUT US</h2>
-                <ul>
-                    <li><a href="#">Career</a></li>
-                    <li><a href="#">Our Team</a></li>
-                    <li><a href="#">Newsroom</a></li>
-                    <li><a href="#">Status</a></li>
-                    <li><a href="#">Trust</a></li>
-                </ul>
-            </div>
-
-            <div class="footer-section">
-                <h2>GET STARTED</h2>
-                <ul>
-                    <li><a href="#">Pricing</a></li>
-                    <li><a href="#">Free Trial</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                    <li><a href="#">Request Demo</a></li>
-                    <li><a href="#">Product Support</a></li>
-                </ul>
-            </div>
+    <footer class="text-gray-600 body-font">
+        <div class="flex w-[87%] mx-auto flex-wrap md:text-left text-center  px-5 py-24 justify-evenly">
+          <div class="lg:w-1/6 md:w-1/2 w-full px-4">
+            <h2 class="font-medium text-[#63768] tracking-[.4em] text-[0.923em] mb-3">PRODUCTS</h2>
+            <nav class="list-none mb-10 ">
+              <li>
+                <a class="text-gray-600 hover:cursor-pointer hover:text-[rgb(6,137,50)]">Screen</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:cursor-pointer hover:text-[rgb(6,137,50)]">Interview</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:cursor-pointer hover:text-[rgb(6,137,50)]">Certified Assessments</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:cursor-pointer hover:text-[rgb(6,137,50)]">Plagiarism Detection</a>
+              </li>
+            </nav>
+          </div>
+          <div class="lg:w-1/6 md:w-1/2 w-full px-4">
+            <h2 class="title-font font-medium text-[#63768]0 tracking-[.4em] text-[0.923em] mb-3">SOLUTIONS</h2>
+            <nav class="list-none mb-10">
+              <li>
+                <a class="text-gray-600 hover:cursor-pointer hover:text-[rgb(6,137,50)]">Set Up a Skills Strategy</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:cursor-pointer hover:text-[rgb(6,137,50)]">Showcase Your Talent Brand</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:cursor-pointer hover:text-[rgb(6,137,50)]">Optimize Your Hiring Process</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:cursor-pointer hover:text-[rgb(6,137,50)]">Mobilize Your Internal Talent</a>
+              </li>
+              <li>
+                  <a class="text-gray-600 hover:cursor-pointer hover:text-[rgb(6,137,50)]">Embrace AI</a>
+              </li>
+            </nav>
+          </div>
+          <div class="lg:w-1/6 md:w-1/2 w-full px-4">
+            <h2 class="title-font font-medium text-[#63768]  tracking-[.4em] text-[0.923em] mb-3">RESOURCES</h2>
+            <nav class="list-none mb-10">
+              <li>
+                <a class="text-gray-600 hover:cursor-pointer hover:text-[rgb(6,137,50)]">Blog</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:cursor-pointer hover:text-[rgb(6,137,50)]">Customer Stories</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:cursor-pointer hover:text-[rgb(6,137,50)]">Roles Directory</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:cursor-pointer hover:text-[rgb(6,137,50)]">Partners</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:cursor-pointer hover:text-[rgb(6,137,50)]">Integrations</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:cursor-pointer hover:text-[rgb(6,137,50)]">What’s New</a>
+              </li>
+            </nav>
+          </div>
+          <div class="lg:w-1/6 md:w-1/2 w-full px-4">
+            <h2 class="title-font font-medium text-[#63768]  tracking-[.4em] text-[0.923em] mb-3">ABOUT US
+          </h2>
+            <nav class="list-none mb-10">
+              <li>
+                <a class="text-gray-600 hover:cursor-pointer hover:text-[rgb(6,137,50)]">Career</a>
+              </li>
+              <li>
+                <a class="text-gray-600  hover:cursor-pointer hover:text-[rgb(6,137,50)]">Our Team</a>
+              </li>
+              <li>
+                <a class="text-gray-600  hover:cursor-pointer hover:text-[rgb(6,137,50)]">Newsroom</a>
+              </li>
+              <li>
+                <a class="text-gray-600  hover:cursor-pointer hover:text-[rgb(6,137,50)]">Status</a>
+              </li>
+              <li>
+                  <a class="text-gray-600  hover:cursor-pointer hover:text-[rgb(6,137,50)]">Trust</a>
+              </li>
+            </nav>
+          </div>
+          <div class="lg:w-1/6 md:w-1/2 w-full px-4">
+            <h2 class="title-font font-medium text-[#63768] tracking-[.4em] text-[0.923em] mb-3">GET STARTED</h2>
+            <nav class="list-none mb-12 text-[1rem]">
+              <li>
+                <a class="text-gray-600 hover:cursor-pointer hover:text-[rgb(6,137,50)]">Pricing</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:cursor-pointer hover:text-[rgb(6,137,50)]">Free Trial</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:cursor-pointer hover:text-[rgb(6,137,50)]">Contact Us</a>
+              </li>
+              <li>
+                <a class="text-gray-600 hover:cursor-pointer hover:text-[rgb(6,137,50)]">Request Demo</a>
+              </li>
+              <li>
+                  <a class="text-gray-600 hover:cursor-pointer hover:text-[rgb(6,137,50)]">Product Support</a>
+              </li>
+              <li>
+                  <a class="text-gray-600 hover:cursor-pointer hover:text-[rgb(6,137,50)]">Request Demo</a>
+              </li>
+            </nav>
+          </div>
         </div>
 
-        <div class="footer-bottom">
-            <div class="footer-icons">
-                <a href="#" class="icon-link"><img src="Images/fevicon.png" alt="HackerRank Icon"></a>
-                <a href="#" class="icon-link"><img src="../Anchit/Images/facebook_icon.svg" alt="Facebook Icon"></a>
-                <a href="#" class="icon-link"><img src="../Anchit/Images/LinkedIn_Icon.svg" alt="LinkedIn Icon"></a>
-                <a href="#" class="icon-link"><img src="../Anchit/Images/logo-twitter.png" alt="Twitter Icon"></a>
-            </div>
-            
-            <p class="copyright-text">Copyright © 2024 HackerRank DBA INTERVIEW STREET TECHNOLOGIES PRIVATE LIMITED</p>
-            
-            <a href="https://www.hackerrank.com/privacy/" class="privacy-link">Privacy Policy</a>
-        </div>
-    </footer>
+
+      <div class="w-[87%] mx-auto flex flex-col items-end justify-center">
+          <div class="w-1/3 pt-4 border-t border-gray-200 py-8 flex flex-col justify-center items-end gap-4">
+          
+              <span class="flex w-full items-center justify-start">
+                  <a class="text-gray-500 hover:cursor-pointer ">
+                      <img id="hackerRank_icon" src="Images/fevicon.png" alt="" class="h-9 w-9">
+                  </a>
+                  <a class="ml-3 text-gray-500 hover:cursor-pointer hover:opacity-70">
+                      <img src="../Anchit/Images/facebook_icon.svg" alt="">
+                  </a>
+                  <a class="ml-3 text-gray-500 hover:cursor-pointer hover:opacity-70">
+                      <img src="../Anchit/Images/LinkedIn_Icon.svg" alt="">
+                  </a>
+                  <a class="ml-3 text-gray-500 hover:cursor-pointer hover:opacity-70">
+                      <img src="../Anchit/Images/Twitter_icon.svg" alt="">
+                  </a>
+              </span>
+
+              <span class="text-rgb(87, 104, 113)-500 text-sm text-start">Copyright © 2024 HackerRank DBA INTERVIEW STREET TECHNOLOGIES PRIVATE LIMITED
+              </span>
+
+              <span class="w-[100%] flex justify-start text-start hover:text-[rgb(27,169,76)]"><a href="https://www.hackerrank.com/privacy/">Privacy Policy</a></span>        
+
+          </div>
+      </div>
+  </footer>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
