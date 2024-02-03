@@ -3,49 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Contact Us - HackerRank</title>
+    <link rel="icon" type="image/x-icon" href="./Images/fevicon.png">
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="icon" href="Images/fevicon.png">
-
+    
 </head>
 <body>
     <nav class="h-[5.5vh] bg-gradient-to-r from-black from-0% via-[rgb(26,64,85)] via-20%  to-black to-90%  text-[rgb(183,201,204)] text-[1rem] flex justify-end pr-[12rem] items-center">
         <div class="px-4">Contact Us</div>
         <div class="px-4  border-l-2 border-[hsl(189,17%,76%)]">Log in</div>
     </nav>
-    <header class="h-[9vh] w-[80%] mx-auto bg-white text-black flex justify-between items-center sticky top-0">
+    <header class="h-[9vh] w-[100%] lg:max-w-[1024px] xl:max-w-[1224px] 2xl:max-w-[1224px] mx-auto bg-white text-black flex justify-between items-center sticky top-0">
         <div class="flex">
             <img src="Images/hackerrank_header_logo.png" class="w-[168px] h-[20px]">
         </div>
-        <div class="flex gap-3 ">
+        <div class="flex shrink gap-x-8 font-semibold text-lg">
             <p>Products</p>
             <p>Solutions</p>
             <p>Resources</p>
             <p>Pricing</p>
         </div>
-        <div class="flex">
-            <a href="">For developers</a>
-            <a href="">Request demo</a>
-            <a href="">Sign up</a>
+        <div class="flex items-center gap-x-4 font-semibold text-lg">
+            <a href="" class="px-4  border-r-2 border-[rgb(0,0,0)]">For developers</a>
+            <a href="" class="px-3 pt-2 pb-2.5  bg-[rgb(247,247,247)] rounded text-center">Request demo</a>
+            <a href="" class="px-3 pt-2 pb-2.5 bg-[rgb(6,137,50)] text-white rounded text-center">Sign up</a>
         </div>
     </header>
-    <div  class="flex w-[100%] max-w-[1334px] mx-auto mt-9">
+    
+    <div  class="flex w-[100%] max-w-[1224px] mx-auto mt-9">
         <div id="left" class="w-[50%] pl-14 pt-7 flex flex-col gap-y-[60px]">
             <h1 class="text-[#050C1B] text-6xl ">Let's get in touch.</h1>
-            <p class="text-[1.1rem] text-[#39424E] pl- ">Talk to a member of our sales team to schedule a demo, pick the best plan for your team, or learn more about everything HackerRank has to offer.</p>
+            <p class="text-[1.1rem] text-[#39424E] pl-3 text-xl ">Talk to a member of our sales team to schedule a demo, pick the best plan for your team, or learn more about everything HackerRank has to offer.</p>
             <div class="flex flex-col gap-3">
                 <h2 class="text-[#050C1B] text-xl scroll-mt-16 pl-3 font-bold border-l-4 border-[rgb(27,169,76)]">Sales Inquiries</h2>
                 <div class="flex flex-wrap gap-x-10 gap-y-6 pr-10">
-                    <p>+1 (415) 900-4023 (US)</p>
-                    <p>+91 8880811222 (India)</p>
-                    <p>+44 (20) 39970808 (UK)</p>
+                    <p class=" text-xl ">+1 (415) 900-4023 (US)</p>
+                    <p class=" text-xl ">+91 8880811222 (India)</p>
+                    <p class=" text-xl ">+44 (20) 39970808 (UK)</p>
                 </div>
             </div>
             <div class="flex flex-col gap-3">
                 <h2 class="text-[#050C1B] text-lg scroll-mt-16 pl-3 font-bold border-l-4 border-[rgb(27,169,76)]">Support</h2>
-                <p>Please visit our support page for more information</p>
+                <p  class=" text-xl ">Please visit our <span class="text-[rgb(6,137,50)] hover:cursor-pointer hover:underline">support page</span> for more information</p>
             </div>
-            <div class="flex flex-col gap-4">
+            <div class="flex flex-col gap-4 text-xl">
                 Trusted by more than 3,000 tech organizations
                 <div class="flex gap-9 items-center flex-wrap">
                     <img src="Images/logo_airbnb.png" alt="" class="h-[20px] w-[63px]">
@@ -64,18 +66,18 @@
                   <p class="leading-relaxed mb-5 t  ext-gray-600">Please fill out the form below, and we'll contact you shortly.</p>
                   <div class="flex flex-col">
                     <label for="email" class="leading-7 text-sm text-gray-600">Work Email</label>
-                    <input type="email" id="email" name="email" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                    <input type="email" id="email" name="email" class="w-full bg-white rounded border border-gray-400 focus:border-black  text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
                   </div>
                   <div class="flex flex-col">
                     <label for="select" class="leading-7 text-sm text-gray-600">How can we help you?</label>
-                    <select class="p-3 border-solid border-gray-600 border-[0.8px]">
+                    <select class="p-3 border-solid border-gray-400 outline-none rounded border-[0.8px] focus:border-black">
                         <option value="select">Select</option>
                         <option value="Chat with Sales">Chat with Sales</option>
                         <option value="Submit a media inquiry">Submit a media inquiry</option>
                         <option value="Get Support with my subscription">Get Support with my subscription</option>
                     </select>
                   </div>
-                  <span id="" class="h-12 flex justify-center items-center gap-3 text-white mt-2 bg-[rgb(52,145,84)] border-0 py-2 px-6 focus:outline-none hover:bg-[rgb(27,169,76)] hover:cursor-pointer rounded text-lg">
+                  <span id="" class="h-12 flex justify-center items-center gap-3 text-white mt-2 bg-[rgb(52,145,84)] border-0 rounded py-2 px-6 focus:outline-none hover:bg-[rgb(27,169,76)] hover:cursor-pointer rounded text-lg">
                     <p>Contact Us</p>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
@@ -92,16 +94,16 @@
               <h2 class="font-medium text-[#63768] tracking-[.4em] text-[0.923em] mb-3">PRODUCTS</h2>
               <nav class="list-none mb-10 ">
                 <li>
-                  <a class="text-gray-600 hover:text-gray-800">Screen</a>
+                  <a class="text-gray-600 hover:cursor-pointer hover:text-[rgb(6,137,50)]">Screen</a>
                 </li>
                 <li>
-                  <a class="text-gray-600 hover:text-gray-800">Interview</a>
+                  <a class="text-gray-600 hover:cursor-pointer hover:text-[rgb(6,137,50)]">Interview</a>
                 </li>
                 <li>
-                  <a class="text-gray-600 hover:text-gray-800">Certified Assessments</a>
+                  <a class="text-gray-600 hover:cursor-pointer hover:text-[rgb(6,137,50)]">Certified Assessments</a>
                 </li>
                 <li>
-                  <a class="text-gray-600 hover:text-gray-800">Plagiarism Detection</a>
+                  <a class="text-gray-600 hover:cursor-pointer hover:text-[rgb(6,137,50)]">Plagiarism Detection</a>
                 </li>
               </nav>
             </div>
@@ -109,19 +111,19 @@
               <h2 class="title-font font-medium text-[#63768]0 tracking-[.4em] text-[0.923em] mb-3">SOLUTIONS</h2>
               <nav class="list-none mb-10">
                 <li>
-                  <a class="text-gray-600 hover:text-gray-800">Set Up a Skills Strategy</a>
+                  <a class="text-gray-600 hover:cursor-pointer hover:text-[rgb(6,137,50)]">Set Up a Skills Strategy</a>
                 </li>
                 <li>
-                  <a class="text-gray-600 hover:text-gray-800">Showcase Your Talent Brand</a>
+                  <a class="text-gray-600 hover:cursor-pointer hover:text-[rgb(6,137,50)]">Showcase Your Talent Brand</a>
                 </li>
                 <li>
-                  <a class="text-gray-600 hover:text-gray-800">Optimize Your Hiring Process</a>
+                  <a class="text-gray-600 hover:cursor-pointer hover:text-[rgb(6,137,50)]">Optimize Your Hiring Process</a>
                 </li>
                 <li>
-                  <a class="text-gray-600 hover:text-gray-800">Mobilize Your Internal Talent</a>
+                  <a class="text-gray-600 hover:cursor-pointer hover:text-[rgb(6,137,50)]">Mobilize Your Internal Talent</a>
                 </li>
                 <li>
-                    <a class="text-gray-600 hover:text-gray-800">Embrace AI</a>
+                    <a class="text-gray-600 hover:cursor-pointer hover:text-[rgb(6,137,50)]">Embrace AI</a>
                 </li>
               </nav>
             </div>
@@ -129,22 +131,22 @@
               <h2 class="title-font font-medium text-[#63768]  tracking-[.4em] text-[0.923em] mb-3">RESOURCES</h2>
               <nav class="list-none mb-10">
                 <li>
-                  <a class="text-gray-600 hover:text-gray-800">Blog</a>
+                  <a class="text-gray-600 hover:cursor-pointer hover:text-[rgb(6,137,50)]">Blog</a>
                 </li>
                 <li>
-                  <a class="text-gray-600 hover:text-gray-800">Customer Stories</a>
+                  <a class="text-gray-600 hover:cursor-pointer hover:text-[rgb(6,137,50)]">Customer Stories</a>
                 </li>
                 <li>
-                  <a class="text-gray-600 hover:text-gray-800">Roles Directory</a>
+                  <a class="text-gray-600 hover:cursor-pointer hover:text-[rgb(6,137,50)]">Roles Directory</a>
                 </li>
                 <li>
-                  <a class="text-gray-600 hover:text-gray-800">Partners</a>
+                  <a class="text-gray-600 hover:cursor-pointer hover:text-[rgb(6,137,50)]">Partners</a>
                 </li>
                 <li>
-                  <a class="text-gray-600 hover:text-gray-800">Integrations</a>
+                  <a class="text-gray-600 hover:cursor-pointer hover:text-[rgb(6,137,50)]">Integrations</a>
                 </li>
                 <li>
-                  <a class="text-gray-600 hover:text-gray-800">What’s New</a>
+                  <a class="text-gray-600 hover:cursor-pointer hover:text-[rgb(6,137,50)]">What’s New</a>
                 </li>
               </nav>
             </div>
@@ -153,19 +155,19 @@
             </h2>
               <nav class="list-none mb-10">
                 <li>
-                  <a class="text-gray-600 hover:text-gray-800">Career</a>
+                  <a class="text-gray-600 hover:cursor-pointer hover:text-[rgb(6,137,50)]">Career</a>
                 </li>
                 <li>
-                  <a class="text-gray-600 hover:text-gray-800">Our Team</a>
+                  <a class="text-gray-600  hover:cursor-pointer hover:text-[rgb(6,137,50)]">Our Team</a>
                 </li>
                 <li>
-                  <a class="text-gray-600 hover:text-gray-800">Newsroom</a>
+                  <a class="text-gray-600  hover:cursor-pointer hover:text-[rgb(6,137,50)]">Newsroom</a>
                 </li>
                 <li>
-                  <a class="text-gray-600 hover:text-gray-800">Status</a>
+                  <a class="text-gray-600  hover:cursor-pointer hover:text-[rgb(6,137,50)]">Status</a>
                 </li>
                 <li>
-                    <a class="text-gray-600 hover:text-gray-800">Trust</a>
+                    <a class="text-gray-600  hover:cursor-pointer hover:text-[rgb(6,137,50)]">Trust</a>
                 </li>
               </nav>
             </div>
@@ -173,22 +175,22 @@
               <h2 class="title-font font-medium text-[#63768] tracking-[.4em] text-[0.923em] mb-3">GET STARTED</h2>
               <nav class="list-none mb-12 text-[1rem]">
                 <li>
-                  <a class="text-gray-600 hover:text-gray-800">Pricing</a>
+                  <a class="text-gray-600 hover:cursor-pointer hover:text-[rgb(6,137,50)]">Pricing</a>
                 </li>
                 <li>
-                  <a class="text-gray-600 hover:text-gray-800">Free Trial</a>
+                  <a class="text-gray-600 hover:cursor-pointer hover:text-[rgb(6,137,50)]">Free Trial</a>
                 </li>
                 <li>
-                  <a class="text-gray-600 hover:text-gray-800">Contact Us</a>
+                  <a class="text-gray-600 hover:cursor-pointer hover:text-[rgb(6,137,50)]">Contact Us</a>
                 </li>
                 <li>
-                  <a class="text-gray-600 hover:text-gray-800">Request Demo</a>
+                  <a class="text-gray-600 hover:cursor-pointer hover:text-[rgb(6,137,50)]">Request Demo</a>
                 </li>
                 <li>
-                    <a class="text-gray-600 hover:text-gray-800">Product Support</a>
+                    <a class="text-gray-600 hover:cursor-pointer hover:text-[rgb(6,137,50)]">Product Support</a>
                 </li>
                 <li>
-                    <a class="text-gray-600 hover:text-gray-800">Request Demo</a>
+                    <a class="text-gray-600 hover:cursor-pointer hover:text-[rgb(6,137,50)]">Request Demo</a>
                 </li>
               </nav>
             </div>
@@ -199,16 +201,16 @@
             <div class="w-1/3 pt-4 border-t border-gray-200 py-8 flex flex-col justify-center items-end gap-4">
             
                 <span class="flex w-full items-center justify-start">
-                    <a class="text-gray-500 ">
+                    <a class="text-gray-500 hover:cursor-pointer ">
                         <img id="hackerRank_icon" src="Images/fevicon.png" alt="" class="h-9 w-9">
                     </a>
-                    <a class="ml-3 text-gray-500">
+                    <a class="ml-3 text-gray-500 hover:cursor-pointer hover:opacity-70">
                         <img src="Images/facebook_icon.svg" alt="">
                     </a>
-                    <a class="ml-3 text-gray-500">
+                    <a class="ml-3 text-gray-500 hover:cursor-pointer hover:opacity-70">
                         <img src="Images/LinkedIn_Icon.svg" alt="">
                     </a>
-                    <a class="ml-3 text-gray-500">
+                    <a class="ml-3 text-gray-500 hover:cursor-pointer hover:opacity-70">
                         <img src="Images/Twitter_icon.svg" alt="">
                     </a>
                 </span>
@@ -216,7 +218,7 @@
                 <span class="text-rgb(87, 104, 113)-500 text-sm text-start">Copyright © 2024 HackerRank DBA INTERVIEW STREET TECHNOLOGIES PRIVATE LIMITED
                 </span>
 
-                <span class="text-start"><a href="https://www.hackerrank.com/privacy/">Privacy Policy</a></span>        
+                <span class="w-[100%] flex justify-start text-start hover:text-[rgb(27,169,76)]"><a href="https://www.hackerrank.com/privacy/">Privacy Policy</a></span>        
 
             </div>
         </div>
