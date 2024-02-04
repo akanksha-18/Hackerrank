@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HackerRank</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="style.css">
     <link rel="icon" href="Images/fevicon.png">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
@@ -20,19 +22,19 @@
             <img src="Images/hackerrank_logo.png" class="w-[168px] h-[20px]  ml-40 !important">
         </div>
         <div class="flex shrink gap-x-8 font-semibold text-lg ml-40 !important">
-            <div class="products">
-                <p>Products</p>
-                <div class="product-content">
-                  <p>Save time and accelerate your hiring.</p>
-                  <p>Conduct stellar technical interviews.</p>
-                  <p>Launch standardized, role-based tests in minutes.</p>
-                  <p>Ensure fairness with AI-powered plagiarism detection.</p>
-                  <p>Assess technical hires with real-world coding questions.</p>
-                </div>
-              </div>
-              <div class="solutions">
+          <div class="relative group cursor-pointer products">
+            <p>Products</p>
+            <div class="hidden absolute bg-white shadow-md z-10 p-4 max-w-xs text-gray-500 product-content group-hover:block w-56">
+                <p>Save time and accelerate your hiring.</p>
+                <p>Conduct stellar technical interviews.</p>
+                <p>Launch standardized, role-based tests in minutes.</p>
+                <p>Ensure fairness with AI-powered plagiarism detection.</p>
+                <p>Assess technical hires with real-world coding questions.</p>
+            </div>
+          </div>
+              <div class="relative group cursor-pointer products">
                 <p>Solutions</p>
-                <div class="solution-content">
+                <div class="hidden absolute bg-white shadow-md z-10 p-4 max-w-xs text-gray-500 product-content group-hover:block w-56">
                     <p>What We Do</p>
                     <p>Set Up Your Skills Strategy</p>
                     <p>Showcase Your Talent Brand</p>
@@ -44,9 +46,9 @@
                    <p>University Hiring</p>
                 </div>
               </div>
-              <div class="resources">
+              <div class="relative group cursor-pointer products">
                 <p>Resources</p>
-                <div class="resource-content">
+                <div class="hidden absolute bg-white shadow-md z-10 p-4 max-w-xs text-gray-500 product-content group-hover:block w-56">
                     <p>Blog</p>
                     <p>Hiring best practices, job-hunting tips, and industry insights.</p>
                     
@@ -71,175 +73,201 @@
         </div>
         <div class="flex items-center gap-x-4 font-semibold text-lg mr-40">
             <a href="" class="px-4  border-r-2 border-[rgb(0,0,0)]">For developers</a>
-            <a href="" class="px-3 pt-2 pb-2.5  bg-[rgb(247,247,247)] rounded text-center">Request demo</a>
+            <a href="https://akanksha-18.github.io/Hackerrank/Anchit/request_demo.html" class="px-3 pt-2 pb-2.5  bg-[rgb(247,247,247)] rounded text-center">Request demo</a>
             <a href="" class="px-3 pt-2 pb-2.5 bg-[rgb(6,137,50)] text-white rounded text-center">Sign up</a>
         </div>
+        <div class="hamburger">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+      </div>
     </header>
-    
-    <section class="hero">
-        <div class="content">
-        <h1>Skills speak louder <br> than words</h1>
-        <p>We help companies develop the strongest tech teams around. We help<br> candidates sharpen their tech skills and pursue job opportunities.</p>
-        <a class="green">Sign Up</a>
-        <a>Request Demo</a>
-        <p>Over 40% of developers worldwide and 3,000 companies use HackerRank</p>
-        <div class="logo">
-            
-            <img src="Images/peloton_black.png">
-            <img src="Images/atlassian_black.png">
-            <img src="Images/bloomberg_black.png">
-            <img src="Images/vmware_black.png">
-            <img src="Images/stripe_black.png">
-            <img src="Images/goldmansachs_black.png">
-            <img src="Images/adobe_black.png">
-            <img src="Images/linkedin_black.png">
 
+      <section class="flex justify-center items-center relative h-90vh overflow-hidden">
+      <div class="text-center text-black">
+          <h1 class="pt-48 text-8xl font-extrabold leading-tight text-gray-800 font-sans">Skills speak louder <br> than words</h1>
+          <p class="mt-5 text-2xl text-gray-500 font-sans mb-4">We help companies develop the strongest tech teams around. We help<br> candidates sharpen their tech skills and pursue job opportunities.</p>
+          <a href="#" class="inline-block px-12 py-4 mt-8 mb-20 text-lg font-bold text-white transition duration-300 bg-green-500 rounded-md hover:bg-green-700">Sign Up</a>
+          <a href="#" class="inline-block px-12 py-4 text-lg font-bold text-black transition duration-300 bg-white border border-black rounded-md hover:bg-black hover:text-white">Request Demo</a>
+          <p class="mt-5 text-gray-600 font-sans text-2xl">Over 40% of developers worldwide and 3,000 companies use HackerRank</p>
+          <div class="flex justify-center items-center mt-5">
+              <img src="Images/peloton_black.png" class="h-16 w-24 mx-1">
+              <img src="Images/atlassian_black.png" class="h-16 w-24 mx-1">
+              <img src="Images/bloomberg_black.png" class="h-16 w-24 mx-1">
+              <img src="Images/vmware_black.png" class="h-16 w-24 mx-1">
+              <img src="Images/stripe_black.png" class="h-16 w-24 mx-1">
+              <img src="Images/goldmansachs_black.png" class="h-16 w-24 mx-1">
+              <img src="Images/adobe_black.png" class="h-16 w-24 mx-1">
+              <img src="Images/linkedin_black.png" class="h-16 w-24 mx-1">
+          </div>
+      </div>
+  </section>
+  
+    <section class="text-center py-56 Second">
+      <h2 class="text-5xl mb-10 font-light font-sans">It’s not a pipeline problem.</h2>
+      <h2 class="text-5xl mb-10 font-light text-green-500 leading-10 font-sans">It’s a spotlight problem.</h2>
+      <p class="text-lg text-gray-700 mb-8 mb-1 leading-8 text-2xl">Tech hiring needs a reset. From prepping for jobs and practicing coding to running a <br>world-class technical interview, give developers the tools they need to showcase their <br>skills, passion, and potential.</p>
+      
+      <div class="flex justify-center  mb-12 links space-x-8">
+        <a href="#content" class="text-black hover:underline font-bold text-2xl space-x-8">Prep</a>
+        <div class="w-9"></div>
+        <a href="#coding" class="text-black hover:underline font-bold text-2xl">Screen</a>
+        <div class="w-9"></div>
+        <a href="#interviews" class="text-black hover:underline font-bold text-2xl">Interview</a>
+    </div>
+  
+<div class="container mx-auto bg-gray-900 text-white font-size-[1.2em] h-70vh w-78% my-4 p-8 flex items-center relative" id="content">
+  <div class="content flex-1">
+      <p class="text-sm text-left mb-38">:: Coding practice ::</p>
+      <h3 class="text-3xl mt-2 mb-1 leading-15 text-left mb-20">Explore and expand your skills.</h3>
+      <p class="white mb-4 text-xl leading-32 text-left mb-24 ">
+          Every idea has a first line of code. Prep for jobs and 
+          <br>
+          sharpen your skills alongside a global community of <br> developers. Access the content you need to <br>develop new skills – and land the job you’ve dreamed of.
+      </p>
+      <button class="py-2 px-6 bg-gray-900 text-white border border-gray-500  leading-10 text-left block">Sign Up and Practice</button>   
+    </div>
+  <img src="Images/community.jpg" alt="community" class="max-w-full w-1/2 ml-10">
+</div>
+
+      <div class="coding flex justify-center items-center mt-4 mb-16 w-full" id="coding">
+        <div class="content text-left py-24">
+            <p class="text-sm leading-10 font-sans">:: Coding tests ::</p>
+            <h2 class="text-5xl font-sans font-sans leading-15 font-light mb-1">Join the movement.</h2>
+            <h2 class="text-5xl mb-8 text-green-500 font-light">Screen on skills.</h2>
+            <img src="Images/report-2.jpg" alt="report" class="max-w-[1224px] w-full mx-auto">
         </div>
     </div>
-    </section>
-    <section class="Second">
-        <h2>It’s not a pipeline problem.</h2>
-         <h2 class="lightgreen">It’s a spotlight problem.</h2>
-         <p>Tech hiring needs a reset. From prepping for jobs and practicing coding to running a <br>world-class technical interview, give developers the tools they need to showcase their <br>skills, passion, and potential.</p>
-         <div class="links">
-         <a>Prep</a>
-         <a>Screen</a>
-         <a href="#interviews">Interview</a> 
-         </div>
     
-        <div class="container">
-            <div class="content">
-                <p>:: Coding practice ::</p>
-                <h3>Explore and expand your skills.</h3>
-                <p class="white">Every idea has a first line of code. Prep for jobs and 
-                    <br>
-                    sharpen your skills alongside a global community of <br> developers. Access the content you need to <br>develop new skills – and land the job you’ve dreamed of.
+  </section>
+  
+ <section class="binary flex relative mx-auto mt-0">
+    <div class="flex-1 mr-2 text-center">
+        <h2 class="text-4xl pb-2 font-sans">Leave the binary tree <br> behind.</h2>
+        <p class="text-2xl text-gray-500 pb-2 line-2rem">Build coding questions using our library of dev-<br>
+            friendly content that challenges them to solve <br>
+            the problems they’d actually tackle on the job.</p>
+        <div class="flex items-center justify-center mt-5">
+            <a class="font-bold text-black" href="#">Start free trial</a>
+            <img src="Images/icons8-arrow-30.png" alt="arrow" class="ml-2 max-w-full h-auto">
+        </div>
+    </div>
+    <div data-aos="fade-up-left" class="mt-[-30px]">
+        <img src="Images/binarytree-1.png" alt="binarytree" class="max-w-full" width="600">
+    </div>
+</section>
+
+<section class="binary flex h-60vh pt-20 pr-15rem pb-5rem pl-15rem relative mx-auto">
+  <div class="flex-1 mr-2 text-center">
+    <h2 class="text-4xl pb-2 font-sans">Focus on what really <br>
+        matters: the code.</h2>
+    <p  class="text-2xl text-gray-500 pb-2 line-2rem">Build skills-based coding tests with tech<br>
+        problems a developer would encounter on the<br>
+        job — and hire the team behind your next big<br>
+        idea.
+    </p>
+    <div class="flex items-center justify-center">
+    <a class="font-bold text-black">Request a demo</a>
+    <img src="Images\icons8-arrow-30.png" alt="arrow" class="ml-2 max-w-full h-auto">
+    </div>
+</div>
+    <div data-aos="fade-up-left">
+        <img src="Images/code-1.png" class="max-w-full mt-mt-[-30px]" width="600">
+    </div>
+    </div>
+</div>
+</section>
+
+<section class="binary flex h-60vh pt-20 pr-15rem pb-5rem pl-15rem relative mx-auto">
+  <div class="flex-1 mr-2 text-center">
+      <h2 class="text-4xl pb-2 font-sans">Identify top contenders</h2>
+      <p class="text-2xl text-gray-500 pb-2 line-2rem">Identify top contenders and invite them to meet<br>
+          your team using data-driven decisions that help<br> level the playing field for developers <br>
+          everywhere.
+      </p>
+      <div class="flex items-center justify-center">
+          <a>Learn more</a>
+          <img src="Images\icons8-arrow-30.png">
+      </div>
+  </div>
+  <div data-aos="fade-up-left">
+      <img src="Images/contenders.png" class="max-w-full mt-[-40px]" width="600">
+  </div>
+</section> 
+    <section class="interviews flex flex-col items-center justify-center" id="interviews">
+      <p class="pb-2">:: Technical interviews ::</p>
+      <h1 class="text-5xl font-light font-sans pb-2">Interview like it’s <span class="text-green-500">2024</span></h1>
+      <p class="text-gray-500 text-lg pb-2 leading-7">Ditch out of reach and out of touch interview questions about golf balls and 747s —<br>
+          and turn off your clunky screen share for good. Code, create, and collaborate with an<br>
+          IDE built to showcase real-world skills in a real-world environment.</p>
+      <button class="bg-green-500 text-white px-8 py-4 font-bold border border-darkgreen rounded-full">Learn More</button>
+      <div class="tools flex w-full justify-between items-center">
+          <img src="Images/tool1.png" class="max-w-[calc(100%/7)]">
+          <img src="Images/tool2.png" class="max-w-[calc(100%/7)]">
+          <img src="Images/tool3.png" class="max-w-[calc(100%/7)]">
+          <img src="Images/tool4.png" class="max-w-[calc(100%/7)]">
+          <img src="Images/tool5.png" class="max-w-[calc(100%/7)]">
+          <img src="Images/tool6.png" class="max-w-[calc(100%/7)]">
+          <img src="Images/tool7.png" class="max-w-[calc(100%/7)]">
+      </div>
+      <div class="last-image mt-9 text-center relative">
+          <img src="Images/interview-2.png" class="max-w-[1084px] w-full">
+      </div>
+  </section>
+  
+
+<section class="about mx-auto max-w-1180">
+  <div class="content flex flex-wrap justify-between items-start pt-5">
+      <div class="left mb-8 ml-10">
+          <h3 class="text-3xl leading-1.3 text-gray-800 font-light mb-2 font-sans">Every company is a tech company.<br>
+              <span class="text-green-600">We’re here to help ‘em all.</span></h3>
+          <p class="text-base font-light leading-15 mb-4 font-sans text-2xl text-gray-500">More than 3,000 tech teams, representing all industries and from <br>
+              countries around the world, trust HackerRank to connect with developers <br>
+              and add cutting-edge skills to their teams.</p>
+          <p class="text-base font-light mb-4">That includes 25% of the Fortune 100 — and that <br> moonshot startup that just came out of stealth.</p>
+      </div>
+      <div class="logos flex items-center justify-center mt-6 w-full">
+          <img src="Images/peloton_black.png" class="max-w-[91px] mx-2">
+          <img src="Images/atlassian_black.png" class="max-w-[131px] mx-2">
+          <img src="Images/bloomberg_black.png" class="max-w-[91px] mx-2">
+          <img src="Images/vmware_black.png" class="max-w-[91px] mx-2">
+          <img src="Images/stripe_black.png" class="max-w-[91px] mx-2">
+          <img src="Images/goldmansachs_black.png" class="max-w-[91px] mx-2">
+          <img src="Images/adobe_black.png" class="max-w-[91px] mx-2">
+          <img src="Images/linkedin_black.png" class="max-w-[91px] mx-2">
+      </div>
+  </div>
+</section>
+  
+   <section class="mt-10">
+    <div class="hr_container max-w-7xl mx-auto p-8 bg-gradient-to-b from-opacity-40 via-opacity-10 to-opacity-40">
+        <div class="home22-links-content flex justify-between px-4 md:px-8">
+            <div class="home22-links-item w-48 mx-2 md:mx-4">
+                <h3 class="text-2xl md:text-3xl font-semibold mb-2 md:mb-3 font-sans">
+                    Practice coding challenges <br class="mt-2"><span class="text-green-600">& prep for interviews</span>
+                </h3>
+                <p class="text-base md:text-lg text-gray-700 mb-3 md:mb-4 font-sans">
+                    Start practicing your skills now and land the job<br> of your dreams.
                 </p>
-                <button>Sign Up and Practice</button>
+                <p>
+                    <a href="#" class="btn text-base text-white border-1 border-solid border-green-600 bg-green-600 rounded-4 leading-6 py-2 px-4 text-center">Join the community</a>
+                </p>
             </div>
-            <img src="Images/community.jpg" alt="community">
-        </div>
-        <div class="coding">
-        <div class="content">
-         <p>:: Coding tests ::</p>
-         <h2 class="lightgreen">Join the movement.</h2>
-         <h2>Screen on skills.</h2>
-         <img src="Images/report-2.jpg">
-        </div>
-        
-        </div>
-    </section>
-    <section class="binary">
-        <div>
-            <h2>Leave the binary tree <br>
-                 behind.</h2>
-            <p>Build coding questions using our library of dev-<br>
-                friendly content that challenges them to solve <br>
-                the problems they’d actually tackle on the job.</p>
-            <a>Start free trial </a>
-            <img src="Images\icons8-arrow-30.png">
-            <div data-aos="fade-up-left">
-                <img src="Images/binarytree-1.png">
+            <div class="home22-links-item w-48 mx-2 md:mx-4">
+                <h3 class="text-2xl md:text-3xl font-semibold mb-2 md:mb-3">
+                    Get started <span class="text-green-600">hiring with <br class="mt-2">HackerRank</span>
+                </h3>
+                <p class="text-base md:text-lg text-gray-700 mb-3 md:mb-4">
+                    More than 3,000 tech teams, representing all industries and from countries around the world, trust HackerRank
+                </p>
+                <p>
+                    <a href="#" class="btn text-base text-white border-1 border-solid border-green-600 bg-green-600 rounded-4 leading-6 py-2 px-4 text-center">Request a Demo</a>
+                </p>
             </div>
         </div>
-    </section>
-    <section class="Focus">
-        <div>
-            <h2>Focus on what really <br>
-                matters: the code.</h2>
-            <p>Build skills-based coding tests with tech<br>
-                problems a developer would encounter on the<br>
-                job — and hire the team behind your next big<br>
-                idea.
-            </p>
-            <a>Request a demo</a>
-            <img src="Images\icons8-arrow-30.png">
-            <div data-aos="fade-up-left">
-                <img src="Images/code-1.png">
-            </div>
-            <!-- <div data-aos="fade-left">
-                <img src="Images/code-1.png">
-            </div> -->
-        </div>
-    </section>
-    <section class="Contenders">
-        <div>
-            <h2>Identify top contenders</h2>
-            <p>Identify top contenders and invite them to meet<br>
-                 your team using data-driven decisions that help<br> level the playing field for developers <br>
-                 everywhere.
-            </p>
-            <a>Learn more</a>
-            <img src="Images\icons8-arrow-30.png">
-            <div data-aos="fade-up-left">
-                <img src="Images/contenders.png">
-            </div>
-        </div>
-    </section>
-    <section class="interviews" id="interviews">
-     <p>:: Technical interviews ::</p>
-     <h1>Interview like it’s <span>2024</span></h1>
-     <p>Ditch out of reach and out of touch interview questions about golf balls and 747s —<br>
-        and turn off your clunky screen share for good. Code, create, and collaborate with an<br>
-        IDE built to showcase real-world skills in a real-world environment.</p>
-        <button>Learn More</button>
-        <div class="tools">
-            <img src="Images/tool1.png">
-            <img src="Images/tool2.png">
-            <img src="Images/tool3.png">
-            <img src="Images/tool4.png">
-            <img src="Images/tool5.png">
-            <img src="Images/tool6.png">
-            <img src="Images/tool7.png">
-        </div>
-        <div class="last-image">
-            <img src="Images/interview-2.png">
-        </div>
-    </section>
-    <section class="about">
-        <div class="content">
-        <div class="left">
-        <h3>Every company is a tech company.<br>
-        <span>We’re here to help ‘em all.</span></h3>
-        <p>More than 3,000 tech teams, representing all industries and from <br>
-         countries around the world, trust HackerRank to connect with developers <br>
-         and add cutting-edge skills to their teams.</p>
-         <p>That includes 25% of the Fortune 100 — and that <br> moonshot startup that just came out of stealth.</p>
-        <div>
-        <div class="right">
-
-        </div>    
-        </div>
-       <div class="logos">
-        <img src="Images/peloton_black.png" style="width: 91px;">
-            <img src="Images/atlassian_black.png" style="width: 131px;">
-            <img src="Images/bloomberg_black.png" style="width: 91px;">
-            <img src="Images/vmware_black.png" style="width: 91px;">
-            <img src="Images/stripe_black.png" style="width: 91px;">
-            <img src="Images/goldmansachs_black.png" style="width: 91px;">
-            <img src="Images/adobe_black.png" style="width: 91px;">
-            <img src="Images/linkedin_black.png" style="width: 91px;">
-       </div> 
-    </section>
-    <section>
-        <div class="hr_container">
-            <div class="home22-links-content">
-                <div class="home22-links-item">
-        <h3 class="h3 home22-links-item-title">Practice coding challenges &amp; <br><span>prep for interviews</span></h3>
-        <p>Start practicing your skills now and land the job<br>
-    of your dreams.</p>
-    <p><a href="#">Join the community</a></p>
-    
     </div>
-    <div class="home22-links-item">
-        <h3 class="h3 home22-links-item-title">Get started <span>hiring with <br>HackerRank</span></h3>
-        <p>More than 3,000 tech teams, representing all industries and from countries around the world, trust HackerRank</p>
-    <p><a href="#">Request a demo</a></p>
-    
-    </div>
-            </div>
-        </div>
-    </section>
+</section>
+  
     <footer class="text-gray-600 body-font">
         <div class="flex w-[87%] mx-auto flex-wrap md:text-left text-center  px-5 py-24 justify-evenly">
           <div class="lg:w-1/6 md:w-1/2 w-full px-4">
@@ -378,6 +406,20 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
+      </script>
+      <script>
+        const hamburger = document.querySelector('.hamburger');
+        const bar1 = document.querySelector('.bar1');
+        const bar2 = document.querySelector('.bar2');
+        const bar3 = document.querySelector('.bar3');
+        const mobileNav = document.querySelector('.mobileNav');
+
+hamburger.addEventListener('click' , ()=>{
+    bar1.classList.toggle("animateBar1");
+    bar2.classList.toggle("animateBar2");
+    bar3.classList.toggle("animateBar3");
+    mobileNav.classList.toggle("openDrawer");
+});
       </script>
 </body>
 </html>
