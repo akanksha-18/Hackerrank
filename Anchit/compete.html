@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contests | HackerRank</title>
+    <link rel="icon" type="image/x-icon" href="./Images/fevicon.png">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class=" w-[100%] bg-black h-[8vh] flex justify-center items-center">
+        <nav class=" max-w-[95%] mx-auto bg-black h-[8vh] w-[100%] flex justify-between ">
+            <div class="flex items-center text-white gap-6">
+                <img src="Images/hackerrank_icon.svg" alt="" class="h-[53px] w-[65px]">
+                <h4 class="text-white text-[1.2rem] font-bold">HackerRank</h4>
+                <p class="text-[rgb(183,201,204)]">|</p>
+                <span class="flex items-center text-[rgb(183,201,204)]">
+                    <a href="" class="px-6">Prepare</a>
+                    <a href="" class="px-6">Certify</a>
+                    <a href="" class="px-6 py-5 border-b-4 border-[rgb(46,200,102)] ">Compete</a>
+                    <a href="" class="px-6">Apply</a>
+                </span>
+            </div>
+            <div class="flex items-center gap-3 min-w-[100px]">
+                <span class="flex rounded bg-[rgb(57,66,78)] gap-3 pl-3 pr-3 border-[rgb(87,104,113)] border-[1px] active:border-sky-500">
+                    <svg class="w-6 h-9  outline-none text-white hover:cursor-pointer bg-[rgb(57,66,78)]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                    </svg>
+                    <input type="search" placeholder="Search" class="pl-[10px] py-1 w-[235px] outline-none bg-[rgb(57,66,78)] placeholder:text-white placeholder:font-semibold focus:text-white ">
+                </span>
+                <a href="" class="text-white underline font-bold">Hiring developers?</a>
+                <a href="" class="px-4 pt-1.5 pb-2 text-black font-bold bg-[rgb(255,255,255)] rounded text-center">Log in</a>
+                <a href="" class="px-4 pt-1.5 pb-2 font-bold bg-[rgb(6,137,50)] text-white rounded text-center">Sign up</a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="border-[rgb(234,234,236)] border-b-[1px] w-[100%]">
+        <div class="bg-white h-[13vh] w-[100%] max-w-[1424px] mx-auto flex flex-col pl-[20px] justify-center ">
+            <p class="text-[rgb(171,188,190)] text-[15px]">All Contests</p>
+            <h1 class="font-bold text-black text-[30px]">Contests</h1>
+        </div>
+    </div>
+
+    <div class="bg-[rgb(244,244,245)]">
+        <div class="  w-[100%] max-w-[1360px] mx-auto">
+            <div id="left " class="w-[75%] bg-transparent py-5">
+
+                <h5 class="text-[22px]  py-5">Active Contests</h5>
+                <div  id="box" class="flex justify-between items-center bg-white rounded-lg py-[20px] px-[30px] border-[1px] border-[rgb(234,234,236)] ">
+                    <span id="box-text" class="text-[22px]">ProjectEuler+</span>
+                    <div class="flex items-center">
+                        <span>Jul 7th 2014, 9:08 pm IST</span>
+                        <a href="" class="pl-3 pr-3 hover:underline "><span class="text-sky-500">View Details</span></a>
+                        <span id="box-button" class="flex flex-col justify-center items-center text-white font-bold w-[175px] h-[36px] bg-[rgb(6,137,50)] rounded">Sign Up</span>
+                    </div>
+                </div>
+
+                <h5 class="text-[22px]  py-5">Archived Contests</h5>
+                <div id="box" class="flex  justify-between items-center bg-white rounded-lg py-[20px] px-[30px] border-[1px] border-[rgb(234,234,236)] group">
+                    <span id="box-text" class="text-[20px] text-[#738F93] group-hover:text-[rgb(0,117,31)]">DTCC Code-A-Thon October 2023</span>
+                    <div class="flex items-center">
+                        <span class="text-[#39424E]">Jul 7th 2014, 9:08 pm IST</span>
+                        <a href="" class="pl-3 pr-3 hover:underline "><span class="text-[#738F93]">Ended</span></a>
+                        <span id="box-button" class="flex flex-col justify-center items-center text-black font-bold w-[175px] h-[36px] bg-[rgb(244,244,245)] rounded  group-hover:text-white group-hover:bg-[rgb(0,117,31)]">View Event</span>
+                    </div>
+                </div>
+                <div id="box" class="flex justify-between items-center bg-white rounded-lg py-[20px] px-[30px] border-[1px] border-[rgb(234,234,236)] mt-3 group">
+                    <span id="box-text" class="text-[20px] text-[#738F93] group-hover:text-[rgb(0,117,31)] ">ServiceNow Tech Hiring Challenge</span>
+                    <div class="flex items-center">
+                        <span class="text-[#39424E]">Sep 23rd 2023, 2:00 pm IST</span>
+                        <a href="" class="pl-3 pr-3 hover:underline "><span class="text-[#738F93]">Ended</span></a>
+                        <span id="box-button" class="flex flex-col justify-center items-center text-black font-bold w-[175px] h-[36px] bg-[rgb(244,244,245)] rounded  group-hover:text-white group-hover:bg-[rgb(0,117,31)]  group-hover:text-white group-hover:bg-[rgb(0,117,31)]">View Event</span>
+                    </div>
+                </div>             
+                <div id="box" class="flex justify-between items-center bg-white rounded-lg py-[20px] px-[30px] border-[1px] border-[rgb(234,234,236)] mt-3 group">
+                    <span id="box-text" class="text-[20px] text-[#738F93] group-hover:text-[rgb(0,117,31)] ">DTCC Code-A-Thon</span>
+                    <div class="flex items-center">
+                        <span class="text-[#39424E]">Aug 27th 2021, 9:30 pm IST</span>
+                        <a href="" class="pl-3 pr-3 hover:underline "><span class="text-[#738F93]">Ended</span></a>
+                        <span id="box-button" class="flex flex-col justify-center items-center text-black font-bold w-[175px] h-[36px] bg-[rgb(244,244,245)] rounded  group-hover:text-white group-hover:bg-[rgb(0,117,31)]">View Event</span>
+                    </div>
+                </div>
+                <div id="box" class="flex justify-between items-center bg-white rounded-lg py-[20px] px-[30px] border-[1px] border-[rgb(234,234,236)] mt-3 group">
+                    <span id="box-text" class="text-[20px] text-[#738F93] group-hover:text-[rgb(0,117,31)] ">National Disability Independence Day 2021 Coding Contest</span>
+                    <div class="flex items-center">
+                        <span class="text-[#39424E]">Jul 23rd 2021, 9:30 pm IST</span>
+                        <a href="" class="pl-3 pr-3 hover:underline "><span class="text-[#738F93]">Ended</span></a>
+                        <span id="box-button" class="flex flex-col justify-center items-center text-black font-bold w-[175px] h-[36px] bg-[rgb(244,244,245)] rounded  group-hover:text-white group-hover:bg-[rgb(0,117,31)]">View Event</span>
+                    </div>
+                </div>
+
+                <div id="box" class="flex justify-between items-center bg-white rounded-lg py-[20px] px-[30px] border-[1px] border-[rgb(234,234,236)] mt-3 group">
+                    <span id="box-text" class="text-[20px] text-[#738F93] group-hover:text-[rgb(0,117,31)] ">Celebrate PRIDE 2021 Coding Contest </span>
+                    <div class="flex items-center">
+                        <span class="text-[#39424E]">Jun 25th 2021, 9:30 pm IST</span>
+                        <a href="" class="pl-3 pr-3 hover:underline "><span class="text-[#738F93]">Ended</span></a>
+                        <span id="box-button" class="flex flex-col justify-center items-center text-black font-bold w-[175px] h-[36px] bg-[rgb(244,244,245)] rounded  group-hover:text-white group-hover:bg-[rgb(0,117,31)]">View Event</span>
+                    </div>
+                </div>
+
+                <div id="box" class="flex justify-between items-center bg-white rounded-lg py-[20px] px-[30px] border-[1px] border-[rgb(234,234,236)] mt-3 group">
+                    <span id="box-text" class="text-[20px] text-[#738F93] group-hover:text-[rgb(0,117,31)] ">Celebrate Juneteenth 2021 Coding Contest</span>
+                    <div class="flex items-center">
+                        <span class="text-[#39424E]">Jun 18th 2021, 9:30 pm IST</span>
+                        <a href="" class="pl-3 pr-3 hover:underline "><span class="text-[#738F93]">Ended</span></a>
+                        <span id="box-button" class="flex flex-col justify-center items-center text-black font-bold w-[175px] h-[36px] bg-[rgb(244,244,245)] rounded  group-hover:text-white group-hover:bg-[rgb(0,117,31)]">View Event</span>
+                    </div>
+                </div>
+
+                <div id="box" class="flex justify-between items-center bg-white rounded-lg py-[20px] px-[30px] border-[1px] border-[rgb(234,234,236)] mt-3 group">
+                    <span id="box-text" class="text-[20px] text-[#738F93] group-hover:text-[rgb(0,117,31)] ">COVID-19 Relief for India Coding Challenge</span>
+                    <div class="flex items-center">
+                        <span class="text-[#39424E]">Jun 16th 2021, 12:00 pm IST</span>
+                        <a href="" class="pl-3 pr-3 hover:underline "><span class="text-[#738F93]">Ended</span></a>
+                        <span id="box-button" class="flex flex-col justify-center items-center text-black font-bold w-[175px] h-[36px] bg-[rgb(244,244,245)] rounded  group-hover:text-white group-hover:bg-[rgb(0,117,31)]">View Event</span>
+                    </div>
+                </div>
+
+                <div id="box" class="flex justify-between items-center bg-white rounded-lg py-[20px] px-[30px] border-[1px] border-[rgb(234,234,236)] mt-3 group">
+                    <span id="box-text" class="text-[20px] text-[#738F93] group-hover:text-[rgb(0,117,31)] ">Asian Pacific American Heritage Month 2021 Coding Contest</span>
+                    <div class="flex items-center">
+                        <span class="text-[#39424E]">May 21st 2021, 9:30 pm IST </span>
+                        <a href="" class="pl-3 pr-3 hover:underline "><span class="text-[#738F93]">Ended</span></a>
+                        <span id="box-button" class="flex flex-col justify-center items-center text-black font-bold w-[175px] h-[36px] bg-[rgb(244,244,245)] rounded  group-hover:text-white group-hover:bg-[rgb(0,117,31)]">View Event</span>
+                    </div>
+                </div>
+<!-- completed -->
+                <div id="box" class="flex justify-between items-center bg-white rounded-lg py-[20px] px-[30px] border-[1px] border-[rgb(234,234,236)] mt-3 group">
+                    <span id="box-text" class="text-[20px] text-[#738F93] group-hover:text-[rgb(0,117,31)] ">Asian Pacific American Heritage Month 2021 Coding Contest</span>
+                    <div class="flex items-center">
+                        <span class="text-[#39424E]">May 21st 2021, 9:30 pm IST </span>
+                        <a href="" class="pl-3 pr-3 hover:underline "><span class="text-[#738F93]">Ended</span></a>
+                        <span id="box-button" class="flex flex-col justify-center items-center text-black font-bold w-[175px] h-[36px] bg-[rgb(244,244,245)] rounded  group-hover:text-white group-hover:bg-[rgb(0,117,31)]">View Event</span>
+                    </div>
+                </div>
+                <div id="box" class="flex justify-between items-center bg-white rounded-lg py-[20px] px-[30px] border-[1px] border-[rgb(234,234,236)] mt-3 group">
+                    <span id="box-text" class="text-[20px] text-[#738F93] group-hover:text-[rgb(0,117,31)] ">Asian Pacific American Heritage Month 2021 Coding Contest</span>
+                    <div class="flex items-center">
+                        <span class="text-[#39424E]">May 21st 2021, 9:30 pm IST </span>
+                        <a href="" class="pl-3 pr-3 hover:underline "><span class="text-[#738F93]">Ended</span></a>
+                        <span id="box-button" class="flex flex-col justify-center items-center text-black font-bold w-[175px] h-[36px] bg-[rgb(244,244,245)] rounded  group-hover:text-white group-hover:bg-[rgb(0,117,31)]">View Event</span>
+                    </div>
+                </div>
+                <div id="box" class="flex justify-between items-center bg-white rounded-lg py-[20px] px-[30px] border-[1px] border-[rgb(234,234,236)] mt-3 group">
+
+                    <span id="box-text" class="text-[20px] text-[#738F93] group-hover:text-[rgb(0,117,31)] ">Asian Pacific American Heritage Month 2021 Coding Contest</span>
+                    <div class="flex items-center">
+                        <span class="text-[#39424E]">May 21st 2021, 9:30 pm IST </span>
+                        <a href="" class="pl-3 pr-3 hover:underline "><span class="text-[#738F93]">Ended</span></a>
+                        <span id="box-button" class="flex flex-col justify-center items-center text-black font-bold w-[175px] h-[36px] bg-[rgb(244,244,245)] rounded  group-hover:text-white group-hover:bg-[rgb(0,117,31)]">View Event</span>
+                    </div>
+                </div>
+                <div id="box" class="flex justify-between items-center bg-white rounded-lg py-[20px] px-[30px] border-[1px] border-[rgb(234,234,236)] mt-3 group">
+                    <span id="box-text" class="text-[20px] text-[#738F93]">Asian Pacific American Heritage Month 2021 Coding Contest</span>
+                    <div class="flex items-center">
+                        <span class="text-[#39424E]">May 21st 2021, 9:30 pm IST </span>
+                        <a href="" class="pl-3 pr-3 hover:underline "><span class="text-[#738F93]">Ended</span></a>
+                        <span id="box-button" class="flex flex-col justify-center items-center text-black font-bold w-[175px] h-[36px] bg-[rgb(244,244,245)] rounded  group-hover:text-white group-hover:bg-[rgb(0,117,31)]">View Event</span>
+                    </div>
+                </div>
+
+
+
+            </div>
+           
+           
+           
+            <div id="right" class="w-[35%]"></div>
+        </div>
+    </div>
+   
+    <footer class="w-[100%] h-[51px] flex justify-center items-center gap-2 bg-white text-sky-600 ">
+        <a href="" class="">Blog</a>
+        <p class="text-[rgb(183,201,204)]">|</p>
+        <a href="" class="">Scoring</a>
+        <p class="text-[rgb(183,201,204)]">|</p>
+        <a href="" class="">Environment</a>
+        <p class="text-[rgb(183,201,204)]">|</p>
+        <a href="" class="">FAQ</a>
+        <p class="text-[rgb(183,201,204)]">|</p>
+        <a href="" class="">About Us</a>
+        <p class="text-[rgb(183,201,204)]">|</p>
+        <a href="" class="">Support</a>
+        <p class="text-[rgb(183,201,204)]">|</p>
+        <a href="" class="">Careers</a>
+        <p class="text-[rgb(183,201,204)]">|</p>
+        <a href="" class="">Terms Of Service</a>
+        <p class="text-[rgb(183,201,204)]">|</p>
+        <a href="" class="">Privacy Policy</a>
+    </footer>
+    
+</body>
+</html>
