@@ -38,71 +38,6 @@
                 border-right: 2px solid;
                 padding-right: 19px;
             }
-        .navBar2{
-            height: 80px;
-            /* border: 2px solid black; */
-            display: flex;
-            justify-content: center;
-        }    
-        .navBar2Box{
-            /* border: 2px solid red; */
-            width: 80%;
-        }
-        .div1{
-            width: 17%;
-            /* border: 2px solid blue; */
-            height: 100%;
-            text-align: center;
-            margin-top: 12px;
-        }
-
-        .div1>img{
-            margin-top: 20px;
-        }
-
-        .div2 {
-            width: 30%;
-            /* border: 2px solid green; */
-            position: absolute;
-            top: 42px;
-            right: 635px;
-            height: 77px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .midNavBar2{
-            height: 30%;
-            /* border: 2px solid black; */
-            width: 100%;
-            display: flex;
-        }
-
-        .listOfNav2{
-            margin: auto;
-            list-style-type: none;
-        }
-        
-        .div3 {
-            /* border: 2px solid blue; */
-            position: absolute;
-            width: 26%;
-            right: 153px;
-            height: 76px;
-            top: 43px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        /* #first{
-            border-right: 2px solid black;
-        } */
-
-        /* #second{
-            border: 2px solid black;
-        } */
 
         #third{
             background-color: #068932;
@@ -120,7 +55,7 @@
         }
 
         .entryContent{
-            height: 360px;
+            height: 430px;
             /* border: 2px solid black; */
             display: flex;
             justify-content: center;
@@ -157,17 +92,18 @@
             height: 100%;
             /* border: 2px solid red; */
             display: flex;
-            justify-content: space-around;
+            justify-content: center;
             position: absolute;
-    top: 437px;
+            top: 437px;
    
         }
 
         .innerBoxes{
-            width: 23%;
+            width: 40%;
             height: 100%;
             border: 1px solid #efefef;
             border-radius: 10px;
+            margin-right: 33px;
         }
 
         /* .topBox{
@@ -251,20 +187,6 @@
             text-align: center;
             color: #068932;
         }
-
-        #monthBox2 {
-            font-size: 18px;
-            position: absolute;
-            left: 669px;
-    top: 171px;
-        }
-
-        #monthBox1{
-            font-size: 18px;
-            position: absolute;
-            left: 265px;
-            top: 168px;
-        }
         
 
         .listofThirdInner{
@@ -300,7 +222,7 @@
             /* border: 2px solid green; */
             display: flex;
            justify-content: center;
-           align-items: end;
+           align-items: center;
            background-color: #E8FEED;
         }
 
@@ -426,4 +348,85 @@
             margin-bottom: 8px;
             font-size: 14px;
             padding-left: 40px;
+        }
+
+        .tableDiv{
+            /* border: 2px solid black; */
+            height: 1500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        table{
+            width: 80%;
+            height: 90%;
+            border: 2px solid red;
+        }
+        th,td,tr{
+            /* border: 2px solid black; */
+            text-align: left;
+            color: black;
+        }
+
+        thead{
+            font-size: 20px;
+        }
+
+        tr,td{
+            border-bottom: 2px solid grey;
+        }
+
+        .frequentlyAskedQuestions{
+            height: 80px;
+            width: 100%;
+            /* border: 2px solid black; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .InsideBoxOfFrequent{
+            height: 800px;
+            width: 100%;
+            /* border: 2px solid red; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .SubFreqBox{
+            height: 100%;
+            width: 75%;
+            /* border: 2px solid blue; */
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+
+        .h3Box{
+            display: flex;
+            justify-content: space-between;
+            /* border: 2px solid greenyellow; */
+        }
+
+        .paraFreq{
+            /* border: 2px solid green; */
+        }
+
+        .Fpara{
+            margin-top: 12px;
+        }
+
+        .SubParaFreq{
+            border-bottom: 1px solid black;
+            padding-bottom: 20px;
+        }
+
+        .firstDiv>h1{
+            font-size: 35px;
+        }
+
+        .innerPara>p{
+            margin-left: 5px;
         }
