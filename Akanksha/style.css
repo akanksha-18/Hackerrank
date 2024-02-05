@@ -317,7 +317,7 @@ header .hamburger{
 
 .container h3 {
     color: white;
-    font-size: xx-large;
+    font-size: 1.5rem;
     margin-bottom: 1rem; 
     margin-top: 0.5rem;
     display: flex;
@@ -346,17 +346,10 @@ header .hamburger{
 }
 
 .container img {
-    width: 50%; 
+    /* width: 100%; */
+    max-width: 100%; 
     margin-left: 5rem; 
 }
-
-/* .coding{
-    padding: 2rem 6rem;
-    display: flex;
-    align-items: flex-start;
-    position: relative;
-   flex-direction: column; 
-} */
 
 .coding{
     display: flex;
@@ -407,25 +400,7 @@ header .hamburger{
     background: rgba(0, 0, 0, 0.851); 
     opacity: 1; 
 }
-/* .binary{
-    display: flex;
-    height: 60vh;
-    padding: 25rem 0 5rem 15rem;
-}
-.binary h2{
-    font-size: 2rem;
-    padding-bottom: 2rem;
-}
-.binary p{
-    font-size: 1.2rem;
-    color: gray;
-    padding-bottom: 2rem;
-    line-height: 2rem;
-}
-.binary a{
-    font-weight: 900;
-    color: black;
-} */
+
 .binary {
     display: flex;
     height: 60vh;
@@ -459,19 +434,11 @@ header .hamburger{
     position: absolute;
     top: 25rem;
     right: 6rem;
-    width: 40%;
-    height: 50vh;
+    max-width:100%;
+    height: auto;
     /* animation: slideInFromRight 3s ease-in-out infinite;  */
 }
 
-/* @keyframes slideInFromRight {
-    0% {
-        transform: translateX(100%); 
-    }
-    100% {
-        transform: translateX(0); 
-    }
-} */
 
 .Focus {
     display: flex;
@@ -506,19 +473,11 @@ header .hamburger{
     position: absolute;
     top: 20rem; 
     right: 6rem;
-    width: 40%;
-    height: 50vh;
+    max-width:100%;
+    height: auto;
     /* animation: slideInFromRight 3s ease-in-out infinite; */
 }
-/* 
-@keyframes slideInFromRight {
-    0% {
-        transform: translateX(100%);
-    }
-    100% {
-        transform: translateX(0);
-    }
-} */
+
 .Contenders {
     display: flex;
     height: 60vh;
@@ -552,19 +511,11 @@ header .hamburger{
     position: absolute;
     top: 8rem; 
     right: 6rem;
-    width: 40%;
-    height: 50vh;
+    max-width:100%;
+    height: auto;;
     /* animation: slideInFromRight 3s ease-in-out infinite; */
 }
 
-/* @keyframes slideInFromRight {
-    0% {
-        transform: translateX(100%);
-    }
-    100% {
-        transform: translateX(0);
-    }
-} */
 .interviews{
     display: flex;
     flex-direction: column;
@@ -714,73 +665,98 @@ header .hamburger{
     text-decoration: none;
     font-weight: 400;
 }
-/* .footer {
-    background-color: #f8f8f8;
-    padding: 40px 0;
+.bar1 , .bar2 , .bar3{
+    background-color: black;
+    height: 4px;
+    width: 36px;
+    margin: 3px;
+    border-radius: 10px;
 }
-
-.footer-content {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+header .hamburger{
+    display: none;
 }
-
-.footer-section {
-    margin-bottom: 20px;
+.mobileNav{
+   display: none;
 }
-
-.footer-section h2 {
-    font-size: 1.2em;
-    color: #333;
-    margin-bottom: 10px;
+.openDrawer{
+    transform: translateX(-160px);
 }
-
-.footer-section ul {
-    list-style: none;
-    padding: 0;
-}
-
-.footer-section ul li {
-    margin-bottom: 8px;
-}
-
-.footer-section a {
+.mobileNav a{
     text-decoration: none;
-    color: #666;
-    transition: color 0.3s ease;
+    color: black;
+    margin: 16px 0;
+}
+@media (max-width:1300px){
+    .container{
+        
+    }
+}
+@media (max-width: 1500px) {
+   
+    nav {
+        display: none !important; 
+    }
+
+    header .hamburger{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .animateBar1{
+        animation: flipBar1 0.5s;
+        animation-fill-mode: forwards;
+    }
+    .animateBar2{
+        animation: fadeBar2 0.5s;
+        animation-fill-mode: forwards;
+    }
+    .animateBar3{
+        animation: flipBar3 0.5s;
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes flipBar1 {
+        from{
+            transform: rotate(0);
+        }to{
+            transform: rotate(45deg) translate(4px , 10px);
+        }
+    }
+    @keyframes fadeBar2 {
+        from{
+            transform: scaleX(1);
+            opacity : 1;
+        }to{
+            transform: scaleX(0);
+            opacity : 0;
+        }
+    }
+    @keyframes flipBar3 {
+        from{
+            transform: rotate(0);
+        }to{
+            transform: rotate(-45deg) translate(4px , -10px);
+        }
+    }
+    .mobileNav{
+        width: 80px;
+        background-color: white;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        z-index: 2;
+        top: 0;
+        right: -160px;
+        padding: 16px;
+        transition: transform 0.3s;
+    }
+   
 }
 
-.footer-section a:hover {
-    color: #1ba94c;
-}
 
-.footer-bottom {
-    margin-top: 40px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-}
 
-.footer-icons {
-    display: flex;
-    gap: 10px;
-}
 
-.icon-link img {
-    width: 30px;
-    height: 30px;
-}
-
-.copyright-text {
-    color: #567071;
-    font-size: 0.875rem;
-}
-
-.privacy-link {
-    color: #1ba94c;
-    text-decoration: none;
-}
-
-.privacy-link:hover {
-    color: #1ba94c;
-} */
