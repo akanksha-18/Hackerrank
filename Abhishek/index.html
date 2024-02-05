@@ -1,90 +1,287 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Hackerrank</title>
-</head>
-<body>
-  <nav>
-    <div class="logo"> <img src="hackerrank_logo-21e2867566.svg" alt=""> <span>HackerRank</span></div>
+  
+  <script src="https://cdn.tailwindcss.com"></script>
 
-    <ul class="nav-links">
-      <li>|</li>
-      <li><a href="#">Prepare</a></li>
-      <li><a href="#">Certify</a></li>
-      <li><a href="#">Compete</a></li>
-      <li><a href="#">Apply</a></li>
-    </ul>
-    <div class="search-bar">
-      <input type="text" placeholder="Search">
-    </div>
-    <div class="hiring-developers">
-        <a href="#">Hiring developers?</a>
+</head>
+
+<body>
+  <div class="flex bg-[#0e141e] h-16 text-[#b7c9cc] items-center px-10">
+    <div
+      class="navItem flex items-center justify-center w-20 cursor-pointer text-white h-full  border-b-4 border-[#2ec866]">
+      <div>
+        <a href="/index">Prepare</a>
       </div>
 
-    <div class="buttons">
-      <button>Login</button>
-      <button>Sign Up</button>
     </div>
-  </nav> 
-  <div class="h-20 w-0 text-gray-500">
-    <p class="text-sm">Prepare</p>
-    <h3 class="text-lg">Dashboard</h3>
-</div>
-<hr>
-<div class="h-20 w-0 text-gray-500">
-  <h1>Your Preparation</h1>
-
-  <div class="fcontainer">
-    <div class="fitem">PREPARATION KITS </div>
-    <div class="fitem">NEW SKILL </div>
+    <div class="navItem flex items-center justify-center h-full w-20 cursor-pointer ">
+      <a href="/certify">Certify</a>
+    </div>
   </div>
-  <h3>Certification</h3>
-  <div class="fcontainer">
-    <div class="fitem">Problem Solving (Basic) </div>
-    <div class="fitem">Python (Basic) </div>
-    <div class="fitem1">Stand Out From The Crowd </div>
-  </div>
-  <h4>Prepare By Topics</h4>
-  <table class = "table"; border="1">
-    <thead>
-      <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-          
-      </tr>
-      <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        
-      </tr>
-      <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr> 
-      <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
 
 
-    </thead>
-  </table>
-  <h4>Preparation Kits <a href="#">View All Kits</a></h4>
-  <div class="fcontainer">
-    <div class="fitem2"> 1 WEEK PREPARATION KITS </div>
-    <div class="fitem2">1 MONTH PREPARATION KITS </div>
+  <div class="">
+    <div class="py-5 border-b px-32">
+      <div class="text-[#738f93]">Prepare</div>
+      <div class="text-2xl font-bold">Dashboard</div>
+    </div>
+
+    <div class="my-8 px-32">
+      <div class="text-lg font-bold"> Your Preparation</div>
+      <div class="mt-5 flex">
+        <div class="p-8 border w-1/2 mr-5 cursor-pointer">
+          <div class="text-[#738f93] mb-5 text-xs tracking-wider">PREPARATION KITS</div>
+          <div>
+            <div class="text-2xl font-bold mb-4">
+              Interview Preparation Kit
+            </div>
+            <div>
+              <p class="text-[#738f93] text-sm">Get interview ready for top companies by solving <br> an interview
+                preparation
+                kit.</p>
+            </div>
+            <div class=" mt-8"><span
+                class="px-5 py-3 bg-[#00751f] bg-opacity-80 hover:bg-opacity-100 rounded text-white font-bold text-lg ">View
+                all
+                kits</span>
+            </div>
+          </div>
+        </div>
+        <div class="p-8 border w-1/2 ml-5 cursor-pointer">
+          <div class="text-[#738f93] mb-5 text-xs tracking-wider">NEW SKILL</div>
+          <div>
+            <div class="text-2xl font-bold mb-4">
+              Add your first skill
+            </div>
+            <div>
+              <p class="text-[#738f93] text-sm">Explore and add your first skill to get started. HackerRank offers a
+                variety of skills,</br> tracks and tutorials for you to learn and improve.</p>
+            </div>
+            <div class=" mt-8"><span
+                class="px-5 py-3 bg-[#f4f4f5] bg-opacity-80 hover:bg-opacity-100 rounded  font-bold text-lg ">Explore
+                Skills</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mb-8 mt-12 px-32">
+      <div class="text-lg font-bold ">Certification</div>
+      <div class="flex mt-5">
+        <div
+          class="p-8 border w-1/3 cursor-pointer  rounded h-[190px] flex flex-col justify-between relative overflow-hidden mr-3">
+          <div class="text-2xl font-bold flex">
+            <span>Problem Solving (Basic)</span> <span tabindex="0" data-te-toggle="tooltip" title="Content">
+              <button class="cursor-pointer" type="button">
+                <svg viewBox="0 0 24 24" width="1em" height="15px" class=" ui-svg-icon" fill="currentColor">
+                  <path
+                    d="M12 1C5.9 1 1 5.9 1 12s4.9 11 11 11 11-4.9 11-11S18.1 1 12 1zm0 20c-5 0-9-4-9-9s4-9 9-9 9 4 9 9-4 9-9 9z">
+                  </path>
+                  <path
+                    d="M12 11c-.6 0-1 .4-1 1v4c0 .6.4 1 1 1s1-.4 1-1v-4c0-.6-.4-1-1-1zm.9-3.4c0-.1-.1-.1-.1-.2s-.1-.1-.1-.1c-.3-.3-.7-.4-1.1-.2-.1.1-.2.1-.3.2l-.1.1c0 .1-.1.1-.1.2s0 .1-.1.2V8c0 .3.1.5.3.7.1.1.2.2.3.2.1.1.3.1.4.1h.2c.1 0 .1 0 .2-.1.1 0 .1-.1.2-.1l.1-.1c.2-.2.3-.4.3-.7v-.2c0-.1-.1-.1-.1-.2z">
+                  </path>
+                </svg>
+              </button>
+            </span>
+          </div>
+          <div class="mt-5">
+            <span class="p-2 bg-[#f4f4f5] bg-opacity-80 hover:bg-opacity-100 rounded text-xs font-semibold">Get
+              Certified</span>
+          </div>
+          <img src="https://hrcdn.net/s3_pub/hr-assets/dashboard/ProblemSolving.svg" alt="" role="presentation"
+            class="opacity-10 absolute bottom-0 -right-5 h-4/5">
+        </div>
+        <div
+          class="p-8 border w-1/3  cursor-pointer rounded h-[190px] flex flex-col justify-between relative overflow-hidden ml-3 mr-3">
+          <div class="text-2xl font-bold flex">
+            <span>Python (Basic)</span> <span tabindex="0" data-te-toggle="tooltip" title="Content">
+              <button class="cursor-pointer" type="button">
+                <svg viewBox="0 0 24 24" width="1em" height="15px" class=" ui-svg-icon" fill="currentColor">
+                  <path
+                    d="M12 1C5.9 1 1 5.9 1 12s4.9 11 11 11 11-4.9 11-11S18.1 1 12 1zm0 20c-5 0-9-4-9-9s4-9 9-9 9 4 9 9-4 9-9 9z">
+                  </path>
+                  <path
+                    d="M12 11c-.6 0-1 .4-1 1v4c0 .6.4 1 1 1s1-.4 1-1v-4c0-.6-.4-1-1-1zm.9-3.4c0-.1-.1-.1-.1-.2s-.1-.1-.1-.1c-.3-.3-.7-.4-1.1-.2-.1.1-.2.1-.3.2l-.1.1c0 .1-.1.1-.1.2s0 .1-.1.2V8c0 .3.1.5.3.7.1.1.2.2.3.2.1.1.3.1.4.1h.2c.1 0 .1 0 .2-.1.1 0 .1-.1.2-.1l.1-.1c.2-.2.3-.4.3-.7v-.2c0-.1-.1-.1-.1-.2z">
+                  </path>
+                </svg>
+              </button>
+            </span>
+          </div>
+
+          <div class="mt-5">
+            <span class="p-2 bg-[#f4f4f5] bg-opacity-80 hover:bg-opacity-100 rounded text-xs font-semibold">Get
+              Certified</span>
+          </div>
+
+          <img src="https://hrcdn.net/s3_pub/hr-assets/dashboard/Python.svg" alt="" role="presentation"
+            class="opacity-10 absolute bottom-0 -right-5 h-4/5">
+        </div>
+        <div
+          class="p-8 border w-1/3  cursor-pointer rounded h-[190px] flex flex-col justify-between relative overflow-hidden ml-3 bg-[#0e141e] text-white">
+          <div class="text-lg font-bold">Stand out from the crowd</div>
+          <div class="text-sm">
+            Take the HackerRank Certification Test and make your profile stand out</div>
+          <div>
+            <span class="p-2 bg-white text-[#3a3a40] rounded font-bold hover:bg-[#f4f4f5]">View all
+              certifications</span>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="mb-8 mt-12 px-32">
+      <div class="text-lg font-bold ">Prepare By Topics
+      </div>
+
+      <div class="flex text-[#39424e] border mt-5">
+        <div class="w-1/3 border-r">
+          <div class="px-8 border-b border-opacity-10 text-lg font-bold flex py-5 hover:bg-[#f3f7f7] cursor-pointer">
+            <img class="mr-2" src="https://hrcdn.net/s3_pub/hr-assets/dashboard/Algorithm.svg" alt="" height="24">
+
+            Algorithms</div>
+          <div class="px-8 border-b border-opacity-10 text-lg font-bold flex py-5 hover:bg-[#f3f7f7] cursor-pointer">
+            <img src="https://hrcdn.net/s3_pub/hr-assets/dashboard/AI.svg" alt="" height="24" class="mr-2">
+
+            Artificial Intelligence</div>
+          <div class="px-8 border-b border-opacity-10 text-lg font-bold flex py-5 hover:bg-[#f3f7f7] cursor-pointer">
+            <img src="https://hrcdn.net/s3_pub/hr-assets/dashboard/Java.svg" alt="" height="24" class="mr-2">
+
+            Java</div>
+          <div class="px-8 border-b border-opacity-10 text-lg font-bold flex py-5 hover:bg-[#f3f7f7] cursor-pointer">
+            <img src="https://hrcdn.net/s3_pub/hr-assets/dashboard/SQL.svg" alt="" height="24" class="mr-2">
+
+            SQL</div>
+          <div class="px-8 border-b border-opacity-10 text-lg font-bold flex py-5 hover:bg-[#f3f7f7] cursor-pointer">
+            <img src="https://hrcdn.net/s3_pub/hr-assets/dashboard/FunctionalProgramming.svg" alt="" height="24"
+              class="mr-2">
+            Functional Programming</div>
+
+        </div>
+        <div class="w-1/3 border-r">
+          <div class="px-8 border-b border-opacity-10 text-lg font-bold flex py-5 hover:bg-[#f3f7f7] cursor-pointer">
+            <img src="https://hrcdn.net/s3_pub/hr-assets/dashboard/DataStructure.svg" alt="" height="24" class="mr-2">
+
+            Data Structures</div>
+          <div class="px-8 border-b border-opacity-10 text-lg font-bold flex py-5 hover:bg-[#f3f7f7] cursor-pointer">
+            <img src="https://hrcdn.net/s3_pub/hr-assets/dashboard/C.svg" alt="" height="24" class="mr-2">
+            C</div>
+          <div class="px-8 border-b border-opacity-10 text-lg font-bold flex py-5 hover:bg-[#f3f7f7] cursor-pointer">
+            <img src="https://hrcdn.net/s3_pub/hr-assets/dashboard/Python.svg" alt="" height="24" class="mr-2">
+            Python</div>
+          <div class="px-8 border-b border-opacity-10 text-lg font-bold flex py-5 hover:bg-[#f3f7f7] cursor-pointer">
+            <img src="https://hrcdn.net/s3_pub/hr-assets/dashboard/DataBase.svg" alt="" height="24" class="mr-2">
+            Databases</div>
+          <div class="px-8 border-b border-opacity-10 text-lg font-bold flex py-5 hover:bg-[#f3f7f7] cursor-pointer">
+            <img src="https://hrcdn.net/s3_pub/hr-assets/dashboard/regex.svg" alt="" height="24" class="mr-2">
+            Regex</div>
+
+        </div>
+        <div class="w-1/3 ">
+          <div class="px-8 border-b border-opacity-10 text-lg font-bold flex py-5 hover:bg-[#f3f7f7] cursor-pointer">
+            <img src="https://hrcdn.net/s3_pub/hr-assets/dashboard/Mathematics.svg" alt="" height="24" class="mr-2">
+            Mathematics</div>
+          <div class="px-8 border-b border-opacity-10 text-lg font-bold flex py-5 hover:bg-[#f3f7f7] cursor-pointer">
+            <img src="https://hrcdn.net/s3_pub/hr-assets/dashboard/C++.svg" alt="" height="24">
+            C++</div>
+          <div class="px-8 border-b border-opacity-10 text-lg font-bold flex py-5 hover:bg-[#f3f7f7] cursor-pointer">
+            <img src="https://hrcdn.net/s3_pub/hr-assets/dashboard/Ruby.svg" alt="" height="24">
+            Ruby</div>
+          <div class="px-8 border-b border-opacity-10 text-lg font-bold flex py-5 hover:bg-[#f3f7f7] cursor-pointer">
+            <img src="https://hrcdn.net/s3_pub/hr-assets/dashboard/LinuxShell.svg" alt="" height="24">
+            Linux Shell</div>
+
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="mb-8 mt-12 px-32">
+      <div>
+        <span class="text-lg font-bold ">Preparation Kits
+
+        </span><a href="" class="text-sm text-[#097bbf] hover:underline">View all kits</a></div>
+      <div class="mt-5 flex">
+        <div class="p-6 flex flex-col justify-between w-1/2 cursor-pointer mr-3 border relative overflow-hidden">
+          <div class="text-[#39424e] text-lg font-bold">1 Week Preparation Kit</div>
+          <div class="flex text-sm text-[#738f93] mt-2">
+            <div><span>Challenges: </span><span class="text-black">21</span></div>,&nbsp;<div><span>Attempts:
+              </span><span class="text-black">800525</span></div>,&nbsp;<div><span>Mock Tests: </span><span
+                class="text-black">0</span>
+            </div>
+          </div>
+          <div class="text-[#576871] text-xs font-semibold mt-5 mb-3 flex">
+            <div><span class="p-2 bg-[#f3f7f7] hover:bg-[#e7eeef] mr-2"> Problem Solving (Basic)</span></div>
+            <div><span class="p-2 bg-[#f3f7f7] hover:bg-[#e7eeef] mr-2"> Problem Solving (Intermediate)</span></div>
+
+            <div>
+              <span>+1</span>
+            </div>
+          </div>
+
+          <img class="opacity-100 absolute -bottom-5 -right-5 h-4/5"
+            src="https://hr-assets.s3.amazonaws.com/interview/one-week-preparation-kit.svg" alt="">
+
+        </div>
+        <div class="p-6 flex flex-col justify-between w-1/2 cursor-pointer ml-3 border overflow-hidden relative">
+          <div class="text-[#39424e] text-lg font-bold">1 Month Preparation Kit</div>
+          <div class="flex text-sm text-[#738f93] mt-2">
+            <div><span>Challenges: </span><span class="text-black">54</span></div>,&nbsp;<div><span>Attempts:
+              </span><span class="text-black">236483</span></div>,&nbsp;<div><span>Mock Tests: </span><span
+                class="text-black">0</span>
+            </div>
+          </div>
+          <div class="text-[#576871] text-xs font-semibold mt-5 mb-3 flex">
+            <div><span class="p-2 bg-[#f3f7f7] hover:bg-[#e7eeef] mr-2"> Problem Solving (Basic)</span></div>
+            <div><span class="p-2 bg-[#f3f7f7] hover:bg-[#e7eeef] mr-2"> Problem Solving (Intermediate)</span></div>
+            <div>
+              <span>+1</span>
+            </div>
+          </div>
+
+          <img class="opacity-100 absolute -bottom-5 -right-5 h-4/5"
+            src="https://hr-assets.s3.amazonaws.com/interview/one-week-preparation-kit.svg" alt="">
+
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="mt-8 px-32 text-[#097bbf] text-sm">
+      <div class="py-4 px-5  flex justify-center cursor-pointer">
+        <div class="">Blog</div>
+        <div class="mx-2">|</div>
+        <div class="">Scoring</div>
+        <div class="mx-2">|</div>
+        <div class="">Environment</div>
+        <div class="mx-2">|</div>
+        <div class="">FAQ</div>
+        <div class="mx-2">|</div>
+        <div class="">About Us</div>
+        <div class="mx-2">|</div>
+        <div class="">Support</div>
+        <div class="mx-2">|</div>
+        <div class="">Careers</div>
+        <div class="mx-2">|</div>
+        <div class="">Terms of Service</div>
+        <div class="mx-2">|</div>
+        <div class="">Privacy Policy</div>
+      </div>
+
+    </div>
   </div>
+
+  </div>
+
+
 </body>
+
 </html>
