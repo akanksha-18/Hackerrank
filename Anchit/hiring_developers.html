@@ -3,16 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Developer Skill Platform</title>
     <link rel="icon" type="image/x-icon" href="./Images/fevicon.png">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20,100,0,-25" />
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <script src="https://cdn.tailwindcss.com"></script>
     
 </head>
 <body>
-    <nav class="h-[5.5vh] bg-gradient-to-r from-black from-0% via-[rgb(26,64,85)] via-20% to-black to-90% text-[rgb(183,201,204)] text-[1rem] hidden xl:flex justify-end pr-[12rem] items-center">
-        <div class="px-4"><a href="https://akanksha-18.github.io/Hackerrank/Anchit/contact_us.html">Contact Us</a></div>
-        <div class="px-4  border-l-2 border-[hsl(189,17%,76%)]"><a href="https://akanksha-18.github.io/Hackerrank/Anchit/login.html">Log in</a></div>
+    <nav class="h-[5.5vh] bg-gradient-to-r from-black from-0% via-[rgb(26,64,85)] via-20% to-black to-90%  text-[rgb(183,201,204)] text-[1rem] hidden xl:flex justify-end pr-[12rem] items-center">
+        <div class="px-4"><a class="hover:text-white" href="https://akanksha-18.github.io/Hackerrank/Anchit/contact_us.html">Contact Us</a></div>
+        <div class="px-4  border-l-2 border-[hsl(189,17%,76%)]"><a class="hover:text-white"  href="https://akanksha-18.github.io/Hackerrank/Anchit/login.html">Log in</a></div>
     </nav>
 
     <header class="py-5 px-3 md:px-6 lg:px-16 xl:px-36 w-full shadow-xl bg-white flex sticky z-50 top-0 left-0 text-black justify-between items-center">
@@ -147,20 +148,22 @@
     </div>     
 
     <!-- slider -->
-    <!-- <div class="h-[600px] bg-black">
-        <img class="" src="Images/SLIDER1.png" alt="">
-        <img src="Images/SLIDER2.png" alt="">
-        <img src="Images/SLIDER3.png" alt="">
-        <img src="Images/SLIDER4.png" alt="">
-        <img src="Images/SLIDER5.png" alt="">
-    </div> -->
-    <!-- use owl -->
+        <div class="main-carousel h-[600px] bg-black my-16 mb-32" data-flickity='{ "cellAlign": "left", "contain": true , "autoPlay": true , "wrapAround":true , "friction":0.2, "selectedAttraction":0.01, "pageDots":false }'>
+            <!-- preNextButton:fale -->
+            <!-- autoPlay:1000 -->
+            <div style="width: 100%; height: 600px;" ><img src="Images/SLIDER1.png" alt=""></div>
+            <div style="width: 100%; height: 600px;" ><img src="Images/SLIDER2.png" alt=""></div>
+            <div style="width: 100%; height: 600px;" ><img src="Images/SLIDER3.png" alt=""></div>
+            <div style="width: 100%; height: 600px;" ><img src="Images/SLIDER4.png" alt=""></div>
+            <div style="width: 100%; height: 600px;" ><img src="Images/SLIDER5.png" alt=""></div>
+        </div> 
+    <!-- slider -->
     
     <div class="pl-36">
         <h3 class="text-[#oe141e] text-[26px]">Deeper developer skill assessment expertise</h3>
         <p class="text-[#576871] text-[13px] my-6">From interns to experienced hires, evaluate for any developer role by sending technical challenges and/or conducting live interviews.</p>
         <div class="flex">
-            <div class="w-[50%]">
+            <div class="w-[50%] hover:cursor-pointer">
                 <img class="w-[618px] h-[455px]" src="Images/image-x.png" alt="">
             </div>
             <div class="w-2/5 flex justify-center items-center"><img class="w-[450px] h-[400px] hover:cursor-pointer" src="Images/expertise.png" alt=""></div>
@@ -178,9 +181,9 @@
                     <li class="flex justify-start"><img class="h-[18px] w-[22px] mr-2" src="Images/hexa2.png" alt=""><strong>Field-tested Unbiased Content</strong> developed using fairness and strict sensitivity guidelines</li>
                     <li class="flex justify-start"><img class="h-[18px] w-[26px] mr-2" src="Images/hexa3.png" alt=""><strong>Validation Studies</strong> with countless enterprises certify no adverse impact by gender, race, or ethnic group</li>
                     <li class="flex justify-start"><img class="h-[18px] w-[20px] mr-2" src="Images/hexa4.png" alt=""><strong>Reliability Studies </strong> found our assessments to be highly accurate</li>
-                    <!--Content: ""; -->
                 </ul>
             </section class="w-1/2">
+            
             <section>
                 <img class="h-[270px] w-[570px] shadow-2xl" src="Images/15.jpg" alt="">
             </section>
@@ -208,21 +211,20 @@
 
     <div class = "text-[#576871] text-[16px] mt-40 mb-12 px-40 tracking-widest" >ATS INTEGRATIONS</div>
 
-    <!-- <div class="flex mb-80">
-        <img src="Images/logo-avature.png" alt="">
-        <img src="Images/logo-greenhouse.png" alt="">
-        <img src="Images/logo-jazzhr.png" alt="">
-        <img src="Images/logo-jobvite.png" alt="">
-        <img src="Images/logo-lever.png" alt="">
-        <img src="Images/logo-smartrecruiters.png" alt="">
-        <img src="Images/logo-taleo.png" alt="">
-        <img src="Images/logo-avature.png" alt="">
-        <img src="Images/logo-avature.png" alt="">
-        
-    </div> -->
+    <div class="flex w-[1430px] overflow-hidden gap-7 mb-80 px-7">
+        <img class="w-[120px] h-[57px]" src="Images/logo-avature.png" alt="">
+        <img class="w-[180px] h-[57px]"  src="Images/logo-greenhouse.png" alt="">
+        <img class="w-[132px] h-[57px]"  src="Images/logo-jazzhr.png" alt="">
+        <img class="w-[128px] h-[57px]"  src="Images/logo-jobvite.png" alt="">
+        <img class="w-[142px] h-[57px]"  src="Images/logo-lever.png" alt="">
+        <img class="w-[212px] h-[57px]"  src="Images/logo-smartrecruiters.png" alt="">
+        <img class="w-[147px] h-[57px]"  src="Images/logo-taleo.png" alt="">
+        <img class="w-[120px] h-[57px]" src="Images/logo-avature.png" alt="">
+        <img class="w-[180px] h-[57px]"  src="Images/logo-greenhouse.png" alt="">
+    </div>
 
     <div class="w-full">
-        <h2 class="text-3xl font-semibold text-[#39424e] ml-20 my-6 pl-16">Resources</h2>
+        <h2 class="text-5xl font-semibold text-[#39424e] ml-20 my-6 pl-16">Resources</h2>
         <div class="flex px-32 gap-14">
             <!-- box1 -->
             <div class="h-[360px] w-[255px] shadow-xl hover:shadow-2xl group relative">
@@ -246,7 +248,7 @@
             <div class="h-[360px] w-[255px] shadow-xl hover:shadow-2xl group">
                 <img class="h-[174px] w-[255px] " src="Images/HackerRank_PracticalTips.png" alt="">
                 <!-- inner box -->
-                <div class="flex flex-col w-[255px] gap-7 px-8 py-4 bg-white absolute top:0 left:0 border group-hover:top-[1rem] group-hover:z-1">
+                <div class="flex flex-col w-[255px] gap-7 px-8 py-4 bg-white absolute z-2 top:0 left:0 border group-hover:top-[1rem] group-hover:z-1">
                     <span class="">
                         <p class="text-[#637681]">Guide</p>
                         <p class="text-[#39424E] text-[18px]">Guide: Practical Tips for Remote Technical Hiring</p>
@@ -456,5 +458,9 @@
       </div>
   </footer>
 <!-- body end -->
+
+<!-- script -->
+
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 </body>
 </html>
