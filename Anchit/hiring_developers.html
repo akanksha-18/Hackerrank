@@ -43,7 +43,7 @@
         <p class="text-white font-bold bg-[#1BA94C] py-3 px-8">Request Demo</p>
     </div>
 
-    <div class="flex flex-col py-20 px-auto w-[1140px] mx-auto">
+    <div style="text-shadow: 0px 0px 15px white; " class="flex flex-col py-20 px-auto w-[1140px] mx-auto">
         <div class="flex">
             <div class="flex h-[415px]">
                 <div class="flex flex-col group w-[285px] bg-gradient-to-r from-[rgb(31,61,131)] from-0% to-[rgb(13,122,181)] to-100%">
@@ -90,7 +90,7 @@
             </div>
     
         </div>
-        <div class="flex items-center justify-center h-[81px] w-full tracking-wide text-white font-semibold text-2xl text-center bg-gradient-to-r from-[rgb(37,73,156)] from-0% via-[rgb(13,153,200)] via-25% via-[rgb(0,198,198)] via-50% via-[rgb(14,199,138)] via-75% to-[rgb(11,165,65)] to-100%">
+        <div style="text-shadow: 0px 0px 15px white;" class="flex items-center justify-center h-[81px] w-full tracking-wide text-white font-semibold text-2xl text-center bg-gradient-to-r from-[rgb(37,73,156)] from-0% via-[rgb(13,153,200)] via-25% via-[rgb(0,198,198)] via-50% via-[rgb(14,199,138)] via-75% to-[rgb(11,165,65)] to-100%">
             HackerRank Developer Skills Platform<sup>TM</sup>
         </div>
     </div>  
@@ -150,7 +150,7 @@
     
 
     <div>
-        <section class="flex py-24 px-40 items-center gap-6">
+        <section class="flex py-24 px-40 items-center gap-6 ">
             <section class="w-1/2 flex flex-col gap-6 text-[#576871] pr-10 text-[14px]">
                 <span class="text-3xl font-bold text-[#39424E]">Remove Bias, Design in Diversity</span>
                 <p>Millions of fair, valid, and reliable assessments delivered based on 4 key pillars:</p>
@@ -163,13 +163,13 @@
                 </ul>
             </section class="w-1/2">
             <section>
-                <img class="h-[270px] w-[570px]" src="Images/15.jpg" alt="">
+                <img class="h-[270px] w-[570px] shadow-2xl" src="Images/15.jpg" alt="">
             </section>
     </div>
 
     <div class="flex mb-28">
         <span class="w-1/2 flex justify-center items-center">
-            <img class="w-[570px] h-[238px]" src="Images/hackerrank_products_enterprise_ready.png" alt="">
+            <img class="w-[570px] h-[238px] shadow-2xl" src="Images/hackerrank_products_enterprise_ready.png" alt="">
         </span>
         <span class="w-1/2 flex flex-col justify-center items-center px-[160px]">
             <span class="text-3xl font-bold text-[#39424E]">Enterprise ready for effortless scaling</span>
@@ -183,7 +183,7 @@
             <p class="text-[#576871] text-[14px] mt-6">With a seasoned global customer success team that has helped global companies successfully deploy, train, and adopt HackerRank solutions, you can rest assured that you will get customer service and support that matches your complex needs.</p>
         </span>
         <span class="w-1/2">
-            <img class="w-[570px] h-[316px]" src="Images/hackerrank-products-global-scale.jpg" alt="">
+            <img class="w-[570px] h-[316px] shadow-2xl" src="Images/hackerrank-products-global-scale.jpg" alt="">
         </span>
     </div>
 
@@ -204,24 +204,85 @@
 
     <div class="w-full">
         <h2 class="text-3xl font-semibold text-[#39424e] ml-20 my-6 pl-16">Resources</h2>
-        <div class="flex px-20">
-            <div class="h-[360px] w-[255px] shadow-xl hover:shadow-2xl">
-                <img class="h-[174px] w-[394px]" src="Images/DSP-Datasheet-500-x-342.png" alt="">
-                <div class="flex flex-col gap-14 px-8 py-4">
+        <div class="flex px-20 gap-14">
+            <!-- box1 -->
+            <div class="h-[360px] w-[255px] shadow-xl hover:shadow-2xl group">
+                <img class="h-[174px] w-[255px] " src="Images/DSP-Datasheet-500-x-342.png" alt="">
+                <!-- inner box -->
+                <div class="flex flex-col w-[255px] gap-14 px-8 py-4 absolute bottom:0 z-1 border">
                     <span class="">
                         <p class="text-[#637681]">Datasheet</p>
                         <p class="text-[#39424E] text-[18px]">HackerRank Developer Skills Platform</p>
                     </span>
+                    <span class="hidden group-hover:flex text-[#576871] ">
+                        Download this guide to see how developing the skills of our students.
+                    </span>
                     <a class="text-[13px] text-sky-600 hover:underline" href="">Read more</a>
                 </div>
+                <!-- --------- -->
             </div>
+            <!-- - -->
+
+            <!-- box2 -->
+            <div class="h-[360px] w-[255px] shadow-xl hover:shadow-2xl group">
+                <img class="h-[174px] w-[255px] " src="Images/HackerRank_PracticalTips.png" alt="">
+                <!-- inner box -->
+                <div class="flex flex-col w-[255px] gap-7 px-8 py-4 absolute bottom:0 z-1 border">
+                    <span class="">
+                        <p class="text-[#637681]">Guide</p>
+                        <p class="text-[#39424E] text-[18px]">Guide: Practical Tips for Remote Technical Hiring</p>
+                    </span>
+                    <span class="hidden group-hover:flex text-[#576871] ">
+                        Download this guide to see how the best-in-class teams approaching remote tech hiring.
+                    </span>
+                    <a class="text-[13px] text-sky-600 hover:underline" href="">Read more</a>
+                </div>
+                <!-- --------- -->
+            </div>
+            <!-- - -->
+
+             <!-- box3 -->
+             <div class="h-[360px] w-[255px] shadow-xl hover:shadow-2xl group">
+                <img class="h-[174px] w-[255px] " src="Images/HackerRank_bloomberg.png" alt="">
+                <!-- inner box -->
+                <div class="flex flex-col w-[255px] gap-7 px-8 py-4 absolute bottom:0 z-1 border">
+                    <span class="">
+                        <p class="text-[#637681]">Resources</p>
+                        <p class="text-[#39424E] text-[18px]">Making Remote Work: How Bloomber Adapted to Virtual..</p>
+                    </span>
+                    <span class="hidden group-hover:flex text-[#576871] ">
+                        HackerRank CEO, Vivek Ravisankar, sat down with Kristen Arena at Bloomberg and discussed their process..
+                    </span>
+                    <a class="text-[13px] text-sky-600 hover:underline" href="">Read more</a>
+                </div>
+                <!-- --------- -->
+            </div>
+            <!-- - -->
+
+             <!-- box4 -->
+             <div class="h-[360px] w-[255px] shadow-xl hover:shadow-2xl group">
+                <img class="h-[174px] w-[255px] " src="Images/HackerRank_RemoteHiringUpdates-1536x749-1-e1585870528549.png" alt="">
+                <!-- inner box -->
+                <div class="flex flex-col w-[255px] gap-7 px-8 py-4 absolute bottom:0 z-1 border">
+                    <span class="">
+                        <p class="text-[#637681]">Blog</p>
+                        <p class="text-[#39424E] text-[18px]">New Product Updates: Enabling Remote Hiring with HackerRank</p>
+                    </span>
+                    <span class="hidden group-hover:flex text-[#576871] ">
+                        To provide a better remote interviewing experience, we're making significant updates to our remote hiring...
+                    </span>
+                    <a class="text-[13px] text-sky-600 hover:underline" href="">Read more</a>
+                </div>
+                <!-- --------- -->
+            </div>
+            <!-- - -->
         </div>
 
     </div>
 
     <div class="w-[500px] h-[295px] mx-auto flex justify-start pt-7 lg:items-center my-36 ">
         <div class="container pl-16">
-            <div class="w-[90%] gap-7 bg-white rounded-lg p-8 flex flex-col  shadow-md">
+            <div class="w-[90%] gap-7 bg-white rounded-lg p-8 flex flex-col shadow-2xl">
               <h2 class="text-gray-900 text-3xl  mb-1 font-medium title-font">Schedule a demo</h2>
               <p class="leading-relaxed text-xl mb-5 text-gray-600">Please fill out the form below, and we'll contact you shortly.</p>
               <div class="flex flex-col">
@@ -234,7 +295,7 @@
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-10 h-10 pr-[15px] group-hover:pl-[10px] group-hover:pr-[0px]">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
                 </svg> 
-            </span>
+              </span>
             </div>
           </div>
     </div>
