@@ -49,7 +49,7 @@ Welcome to the HAckerRank Website Clone! This project is a replica of the Hacker
 - Applied for styling and layout.
 - Tailwind CSS: used for framework for rapid UI development, implementing responsive design and styling components efficiently.
 3. **JavaScript:**
-- JavaScript Libraries Used : Our ZEE5s Clone Website Project relies on several external libraries and dependencies to enhance its functionality and features. Below is a list of these libraries along with their purposes:
+- JavaScript Libraries Used : Our HackerRanks Clone Website Project relies on several external libraries and dependencies to enhance its functionality and features. Below is a list of these libraries along with their purposes:
 4. **Flickity-v2**
 - Description: Flickity is a modern and highly flexible JavaScript library designed for creating responsive, touch-friendly sliders and carousels on websites and web applications.
 - Usage: It is used to implement some touch, responsive, flickable carousels and enhance the functionality of our website.
