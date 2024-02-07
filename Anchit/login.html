@@ -3,62 +3,167 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Access Account - HackerRank</title>
     <link rel="icon" type="image/x-icon" href="./Images/fevicon.png">
+    <style>
+     
+     /* @media (max-width: 768px) {
+     #images{
+        background:none;
+      }
+    } */
+        /* #left{
+            background: linear-gradient(to left, rgb(241,248,243), rgb(249, 249, 249));
+            
+          }
+         #left::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 50%;
+            height: 50%;
+            background: linear-gradient(to bottom right, rgb(255,255,255), rgb(247,250,251));
+         
+         }
 
+        #left::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 50%;
+            height: 50%;
+            z-index: 0;
+            background: linear-gradient(to bottom left,rgb(247,250,251) ,rgb(240,240,255));
+        }       
+       */
+       
+    </style>
     <script src="https://cdn.tailwindcss.com"></script>
+    
 </head>
 <body>
     <!-- header -->
-    <nav class="h-[5.5vh] bg-gradient-to-r from-black from-0% via-[rgb(26,64,85)] via-20% to-black to-90%  text-[rgb(183,201,204)] text-[1rem] hidden xl:flex justify-end pr-[12rem] items-center">
-        <div class="px-4"><a href="https://akanksha-18.github.io/Hackerrank/Anchit/contact_us.html">Contact Us</a></div>
-        <div class="px-4  border-l-2 border-[hsl(189,17%,76%)]"><a href="">Log in</a></div>
+    <nav class="h-[5.5vh] bg-gradient-to-r from-black from-0% via-[rgb(26,64,85)] via-20% to-black to-90%  text-[rgb(183,201,204)] text-[1rem] hidden xl:flex justify-end pr-[12rem] items-center ">
+        <div class="px-4"><a class="hover:text-white" href="contact_us.html">Contact Us</a></div>
+        <div class="px-4  border-l-2 border-[hsl(189,17%,76%)]"><a class="hover:text-white"  href="login.html">Log in</a></div>
     </nav>
 
-    <header class="py-5 px-3 md:px-6 lg:px-16 xl:px-36 w-full shadow-xl bg-white flex sticky top-0 left-0 text-black justify-between items-center">
-        <div class="flex">
-            <a href="" class="px-6 lg:px-0 w-[168px] h-[20px]"><img src="Images/hackerrank_header_logo.png"></a>
+    <header class="py-5 px-3 md:px-6 lg:px-16 xl:px-36 w-full shadow-xl bg-white flex sticky top-0 left-0 text-black justify-between items-center z-40">
+      <div class="flex">
+          <a href="../Akanksha/index.html" class="px-6 lg:px-0 w-[168px] h-[20px]"><img src="Images/hackerrank_header_logo.png"></a>
+      </div>
+      <div class="hidden xl:flex shrink gap-x-8 font-semibold text-lg">
+        <div class="relative group">
+          <p class="hover:text-[rgb(6,137,50)] hover:cursor-pointer">Products</p>
+          <div class="hidden absolute bg-white shadow-md z-10 p-8 text-gray-500 product-content group-hover:inline-flex space-x-8 w-[500px]">
+              <div>
+                  <h1 class="hover:text-green-500 hover:bg-green-100 hover:cursor-pointer font-bold text-black">Screen</h1>
+                  <p class="text-base font-medium text-gray-600 pb-4">Save time and accelerate your hiring.</p>
+                  <h1 class="hover:text-green-500 hover:bg-green-100 hover:cursor-pointer font-bold text-black">Interview</h1>
+                  <p class="text-base font-medium text-gray-600 pb-4">Conduct stellar technical interviews.</p>
+                  <h1 class="hover:text-green-500 hover:bg-green-100 hover:cursor-pointer font-bold text-black">Certified Assessment</h1>
+                  <p class="text-base font-medium text-gray-600 pb-4">Launch standardized, role-based tests in minutes.</p>
+              </div>
+              <div>
+                  <h1 class="hover:text-green-500 hover:bg-green-100 hover:cursor-pointer font-bold text-black">Plagiarism Detection</h1>
+                  <p class="text-base font-medium text-gray-600 pb-4">Ensure fairness with AI-powered plagiarism detection.</p>
+                  <h1 class="hover:text-green-500 hover:bg-green-100 hover:cursor-pointer font-bold text-black">Real World</h1>
+                  <p class="text-base font-medium text-gray-600 pb-4">Assess technical hires with real-world coding questions.</p>
+              </div>
+          </div>
+      </div>
+    
+         <div class="relative group">
+          <p class="hover:text-[rgb(6,137,50)] hover:cursor-pointer">Solutions</p>
+          <div class="hidden absolute bg-white shadow-md z-10 p-8 text-gray-500 product-content group-hover:inline-flex space-x-8 w-[500px]">
+              <div>
+                <h1 class="hover:text-green-500 hover:bg-green-100 hover:cursor-pointer font-bold text-black">What We Do</h1>
+                <p  class="text-base font-medium text-gray-600 pb-4">Set Up Your Skills Strategy</p>
+                <p  class="text-base font-medium text-gray-600 pb-4">Showcase Your Talent Brand</p>
+                <p  class="text-base font-medium text-gray-600 pb-4">Optimize Your Hiring Process</p>
+                <p  class="text-base font-medium text-gray-600 pb-4">Mobilize Your Internal Talent</p>
+              </div>
+              <div>
+                <h1 class="hover:text-green-500 hover:bg-green-100 hover:cursor-pointer font-bold text-black">Uses Case</h1>
+                <p class="text-base font-medium text-gray-600 pb-4">Remote Hiring</p>
+                <p class="text-base font-medium text-gray-600 pb-4">University Hiring</p> 
+              </div>
+          </div>
+      </div>
+      <div class="relative group">
+        <p class="hover:text-[rgb(6,137,50)] hover:cursor-pointer">Resources</p>
+        <div class="hidden absolute bg-white shadow-md z-10 p-8 text-gray-500 product-content group-hover:inline-flex space-x-8 w-[500px]">
+            <div>
+              <h1 class="hover:text-green-500 hover:bg-green-100 hover:cursor-pointer font-bold text-black">Blog</h1>
+              <p class="text-base font-medium text-gray-600 pb-4">Hiring best practices, job-hunting tips, and industry insights.</p>
+              
+              <h1 class="hover:text-green-500 hover:bg-green-100 hover:cursor-pointer font-bold text-black">Roles Directory</h1>
+              <p class="text-base font-medium text-gray-600 pb-4">Explore the definitive directory of tech roles.</p>
+              
+              <h1 class="hover:text-green-500 hover:bg-green-100 hover:cursor-pointer font-bold text-black">Resource Library</h1>
+              <p class="text-base font-medium text-gray-600 pb-4">Guides, datasheets, and data-driven content for making the best hires.</p>
+            </div>
+            <div>
+              <h1 class="hover:text-green-500 hover:bg-green-100 hover:cursor-pointer font-bold text-black">Customer Stories</h1>
+              <p class="text-base font-medium text-gray-600 pb-4">Discover how leading companies use HackerRank to hire technical talent.</p>
+              
+              <h1 class="hover:text-green-500 hover:bg-green-100 hover:cursor-pointer font-bold text-black">Product Help</h1>
+              <p class="text-base font-medium text-gray-600 pb-4">Partners</p>
+            </div>
         </div>
-        <div class="hidden xl:flex shrink gap-x-8 font-semibold text-lg">
-            <p class="hover:text-[rgb(6,137,50)] hover:cursor-pointer">Products</p>
-            <p class="hover:text-[rgb(6,137,50)] hover:cursor-pointer">Solutions</p>
-            <p class="hover:text-[rgb(6,137,50)] hover:cursor-pointer">Resources</p>
-            <a class="hover:text-[rgb(6,137,50)]" href="">Pricing</a>
-        </div>
-        <div class="hidden xl:flex justify-between items-center gap-x-4 font-semibold text-lg">
-            <a href="" class="px-4  border-r-2 border-[rgb(0,0,0)]">For developers</a>
-            <a href="" class="px-3 pt-2 pb-2.5  bg-[rgb(247,247,247)] rounded text-center">Request demo</a>
-            <a href="" class="px-3 pt-2 pb-2.5 bg-[rgb(6,137,50)] text-white rounded text-center">Sign up</a>
-        </div>
-
-        <!-- hamburger -->
-        <div class="border xl:hidden">Menu</div>
-
-        <!-- hamburger -->
-      </header>
+    </div>
+          <a class="hover:text-[rgb(6,137,50)]" href="pricing.html">Pricing</a>
+      </div>
+      <div class="hidden xl:flex justify-between items-center gap-x-4 font-semibold text-lg">
+          <a href="../Abhishek/index.html" class="px-4  border-r-2 border-[rgb(0,0,0)]">For developers</a>
+          <a href="request_demo.html" class="px-3 pt-2 pb-2.5  bg-[rgb(247,247,247)] rounded text-center">Request demo</a>
+          <a href="../Akanksha/Signup.html" class="px-3 pt-2 pb-2.5 bg-[rgb(6,137,50)] text-white rounded text-center">Sign up</a>
+          
+      </div>
+    <div id="menu" class="border xl:hidden p-4 cursor-pointer relative">
+      <img src="Images/menu-line.png">
+      <div class="menu-items hidden absolute bg-white p-4 mt-2 w-full left-0 max-w-1180">
+          <a href="#" class="block mb-2 w-full">Product</a>
+          <a href="#" class="block mb-2">Solution</a>
+          <a href="#" class="block mb-2">Resources</a>
+          <a href="pricing.html" class="block mb-2">Pricing</a>
+          <a href="../Abhishek/index.html" class="block mb-2">For Developers</a>
+          <a href="request_demo.html" class="block mb-2">Request Demo</a>
+      </div>
+    </div>
+      <!-- hamburger -->
+    </header>
     
 
     <!-- body -->
-      <div class="flex">
-        <span id="left" class="w-1/2 flex flex-col justify-center items-center px-40 py-48 text-center">
+      <div class="flex flex-col  justify-center md:flex-row">
+        <span id="left" style=" background: linear-gradient(to  right,rgb(232,246,237), rgb(240,240,255))"  class="w-full md:w-1/2">
+          <span class="flex flex-col justify-center items-center text-center md:px-10 lg:px-20 xl:px-40 py-48">
             <strong class="bg-[rgb(6,137,50)] text-white font-semibold text-[12px] px-[10px] rounded">BUSINESS</strong>
-            <h2 class="text-[36px] text-[#39424E]">For <span>Companies</span></h2>
-            <p class="text-[18px] text-[#050c1b] mt-6">We are the market–leading technical interview platform to identify and hire developers with the right skills.</p>
-            <a href="" class="px-12 pt-2 pb-2.5 bg-[rgb(6,137,50)] text-white rounded text-center mt-4">Log in</a>
+            <h2 class="text-[36px] text-[#39424E]">For <span style="background: -webkit-linear-gradient(rgb(7,138,51), rgb(49,197,101));
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;">Companies</span></h2>
+            <p class="text-[18px] text-[#050c1b] mt-6">We are the market&ndash;leading technical interview platform to identify and hire developers with the right skills.</p>
+            <a href="https://www.hackerrank.com/work/login" class="px-12 pt-2 pb-2.5 bg-[rgb(6,137,50)] text-white rounded text-center mt-4">Log in</a>
             <p class="text-[18px] text-[#050c1b] mt-6">Don't have an account?</p>
-            <div class="text-[#050C1B]"><a href=""><strong>Contact sales</strong></a> or <a href=""><strong>Get free trial.</strong></a></div>
+            <div class="text-[#050C1B]"><a href="contact_us.html"><strong>Contact sales</strong></a> or <a href="https://www.hackerrank.com/get-started/hire-now/"><strong>Get free trial.</strong></a></div>
+          </span>
         </span>
         
-        <span id="right" class="w-1/2 flex flex-col justify-center items-center px-40 py-48 text-center">
+        <span id="right" class="w-full md:w-1/2 flex flex-col justify-center items-center md:px-10 lg:px-20 xl:px-40 py-48 text-center">
             
-            <h2 class="text-[36px] text-[#39424E]">For <span>Developers</span></h2>
+            <h2 class="text-[36px] text-[#39424E]">For <span style="background: -webkit-linear-gradient(rgb(7,138,51), rgb(49,197,101));
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;">Developers</span></h2>
             <p class="text-[18px] text-[#050c1b] mt-6">Join over 21 million developers, practice coding skills, prepare for interviews, and get hired.</p>
-            <a href="" class="px-16 pt-2 pb-2.5 text-black border-[1px] border-black rounded text-center mt-4">Log in</a>
+            <a href="https://www.hackerrank.com/auth/login" class="px-16 pt-2 pb-2.5 text-black border-[1px] border-black rounded text-center mt-4">Log in</a>
             <p class="text-[18px] text-[#050c1b] mt-6">Don't have an account?</p>
-            <div class="text-[#050C1B]"><a href=""><strong>Sign up.</strong></a></div>
+            <span class="text-[#050C1B]"><a href="https://www.hackerrank.com/auth/signup"><strong>Sign up.</strong></a></span>
         </span>
       </div>
-      <div id="images" class="w-full flex px-40">
+      <div id="images" style=" background: linear-gradient(to  right,rgb(232,246,237) 0% 25%,rgb(240,240,255) 25% 50%, white 50% 100%);" class="w-full flex flex-wrap lg:pl-36">
         <img class="w-[91px] h-[60px] mr-[50px] mv-[40px]" src="Images/peloton_black.png" alt="">
         <img class="w-[139px] h-[60px] mr-[50px] mv-[40px]"  src="Images/atlassian_black.png" alt="">
         <img class="w-[91px] h-[60px] mr-[50px] mv-[40px]"  src="Images/bloomberg_black.png" alt="">
