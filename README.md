@@ -88,8 +88,8 @@ Throughout the development of our HackerRank Clone Website Project, our team enc
 Throughout the development of our HackerRank Clone Website Project, our team encountered various challenges and obstacles. Here, we document some of the major issues we faced and the solutions we implemented:
 
  1.  Challenge 1 - Design and Layout:
-    - Challenge: Designing a responsive and aesthetically pleasing layout similar to Zee-5.
-    - Resolution: Use Tailwind CSS for responsive design, and refer to Zee-5 for layout inspiration. Break down the UI into components, and utilize Tailwind classes for styling.
+    - Challenge: Designing a responsive and aesthetically pleasing layout similar to HackerRank-5.
+    - Resolution: Use Tailwind CSS for responsive design, and refer to HackerRank-5 for layout inspiration. Break down the UI into components, and utilize Tailwind classes for styling.
   2. Challenge 2 - Cross-browser Compatibility:
     - Challenge: Ensuring the website works correctly on different web browsers.
     - Resolution: Test your website on popular browsers like Chrome, Firefox, Safari, and Edge. Address any compatibility issues by using standardized HTML, CSS, and JavaScript code.
@@ -102,7 +102,7 @@ Throughout the development of our HackerRank Clone Website Project, our team enc
 
 ## CONCLUSION
 ---
-Our Zee-5 clone project was a challenging yet enriching journey in web development. We honed our skills in HTML, Tailwind CSS, and JavaScript, crafting a responsive design. The experience deepened our problem-solving abilities and lays the foundation for future projects and improvements.
+Our HackerRank-5 clone project was a challenging yet enriching journey in web development. We honed our skills in HTML, Tailwind CSS, and JavaScript, crafting a responsive design. The experience deepened our problem-solving abilities and lays the foundation for future projects and improvements.
 ---
 ***Achievements***
  - Faithful Representation: We have strived to provide a faithful representation of the HackerRank website, mirroring its visual aesthetics, layout, and key functionalities.
