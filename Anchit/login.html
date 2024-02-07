@@ -6,12 +6,16 @@
     <title>Access Account - HackerRank</title>
     <link rel="icon" type="image/x-icon" href="./Images/fevicon.png">
     <style>
-        #left{
+     
+     /* @media (max-width: 768px) {
+     #images{
+        background:none;
+      }
+    } */
+        /* #left{
             background: linear-gradient(to left, rgb(241,248,243), rgb(249, 249, 249));
-            /* /* Top left   */
+            
           }
-        
-       
          #left::before {
             content: "";
             position: absolute;
@@ -20,7 +24,7 @@
             width: 50%;
             height: 50%;
             background: linear-gradient(to bottom right, rgb(255,255,255), rgb(247,250,251));
-            /* Top right corner */
+         
          }
 
         #left::after {
@@ -32,10 +36,9 @@
             height: 50%;
             z-index: 0;
             background: linear-gradient(to bottom left,rgb(247,250,251) ,rgb(240,240,255));
-            
-            
         }       
-      
+       */
+       
     </style>
     <script src="https://cdn.tailwindcss.com"></script>
     
@@ -135,9 +138,9 @@
     
 
     <!-- body -->
-      <div class="flex">
-        <span id="left"  class="w-1/2 relative ">
-          <span class="flex flex-col justify-center items-center  text-center absolute top-1/2 left-1/2 z-10 -translate-x-[50%] -translate-y-[50%]">
+      <div class="flex flex-col  justify-center md:flex-row">
+        <span id="left" style=" background: linear-gradient(to  right,rgb(232,246,237), rgb(240,240,255))"  class="w-full md:w-1/2">
+          <span class="flex flex-col justify-center items-center text-center md:px-10 lg:px-20 xl:px-40 py-48">
             <strong class="bg-[rgb(6,137,50)] text-white font-semibold text-[12px] px-[10px] rounded">BUSINESS</strong>
             <h2 class="text-[36px] text-[#39424E]">For <span style="background: -webkit-linear-gradient(rgb(7,138,51), rgb(49,197,101));
               -webkit-background-clip: text;
@@ -149,7 +152,7 @@
           </span>
         </span>
         
-        <span id="right" class="w-1/2 flex flex-col justify-center items-center px-40 py-48 text-center">
+        <span id="right" class="w-full md:w-1/2 flex flex-col justify-center items-center md:px-10 lg:px-20 xl:px-40 py-48 text-center">
             
             <h2 class="text-[36px] text-[#39424E]">For <span style="background: -webkit-linear-gradient(rgb(7,138,51), rgb(49,197,101));
               -webkit-background-clip: text;
