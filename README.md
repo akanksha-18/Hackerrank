@@ -28,6 +28,7 @@ Introducing our HackerRank clone: A platform designed to challenge and hone codi
 1. [Akansha Dubey]() (Team Captain)
 2. [Anchit Julaniya]()
 3. [Abhishek Pal]()
+4. [Ranita Ghosh]()
 
 - We embarked on an exciting collaboration to mirror the refined aesthetics of the HackerRank website. Our collective effort centered on capturing the visual essence of the original, showcasing our skills in this creative venture.
 ---
