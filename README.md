@@ -25,7 +25,7 @@ Welcome to the HAckerRank Website Clone! This project is a replica of the Hacker
 ## Project
 ---
 - This project was assigned by [Geekster]() as a Major Project for our team of 3 members:
- 1.  [Akansha Dubey]() (Team Captain)
+ 1.  [Akanksha Dubey]() (Team Captain)
  2.  [Anchit Julaniya]()
  3.  [Abhishek Pal]()
 
