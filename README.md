@@ -71,6 +71,9 @@ Documentation: [Official documentation for reference.]()
 4. Responsive Design: Leverage the scalability of vector icons, ensuring adaptability across various screen sizes without compromising quality.
 5. Explore Icons: Visit the Font Awesome website or documentation to find the icons that suit your project's needs.
 6. Documentation: [Official documentation for further details.]()
+
+7. **AOS**
+   -Description : AOS is a Animation On Scroll library that offers an animation-providing JavaScript library that makes it easier to add tons of animations by simply changing the name of the class in the div tag in which you want to add an animation. While there are different animation JavaScript libraries out there, AOS. [Link](https://michalsnik.github.io/aos/)
 ---
 ## Getting Started:
 - To get started with the HackerRank Website Clone, follow these steps:
