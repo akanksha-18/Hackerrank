@@ -96,10 +96,11 @@
       <a href="./Signup.html" class="px-3 pt-2 pb-2.5 bg-[rgb(6,137,50)] text-white rounded text-center">Sign up</a>
       <a href="./compiler.html" class="px-3 pt-2 pb-2.5 bg-[rgb(6,137,50)] text-white rounded text-center">Playground</a>
   </div>
-<div id="menu" class="border xl:hidden p-4 cursor-pointer relative">
-  <img src="Images/menu-line.png">
-  <div class="menu-items hidden absolute bg-white p-4 mt-2 w-full left-0 max-w-1180">
-      <a href="#" class="block mb-2 w-full">Product</a>
+
+  <div id="menu" class="border xl:hidden p-4 cursor-pointer">
+  <img src="Images/menu-line.png" class="xl:hidden ">
+  <div class="menu-items hidden absolute bg-white flex flex-col items-center justify-around w-full sm:w-1/2 h-80 top-20 right-2">
+      <a href="#" class="block mb-2">Product</a>
       <a href="#" class="block mb-2">Solution</a>
       <a href="#" class="block mb-2">Resources</a>
       <a href="#" class="block mb-2">Pricing</a>
@@ -136,12 +137,12 @@
 </section>
 
   
-   <section class="text-center py-56 Second">
-      <h2 class="lg:text-5xl lg:mb-10 font-light font-sans font-medium font-Sans mb-2">It’s not a pipeline problem.</h2>
-      <h2 class="lg:text-5xl text-base lg:mb-10 mb-5 font-light text-green-500 leading-10 font-sans">It’s a spotlight problem.</h2>
-      <p class="lg:text-lg text-gray-700 lg:mb-8 lg:mb-1 lg:leading-8 text-2xl">Tech hiring needs a reset. From prepping for jobs and practicing coding to running a <br>world-class technical interview, give developers the tools they need to showcase their <br>skills, passion, and potential.</p>
+   <section class="text-center py-10 md:py-20 lg:py-28 ">
+      <h2 class="text-2xl lg:text-5xl lg:mb-10 font-light font-sans font-medium font-Sans mb-2">It’s not a pipeline problem.</h2>
+      <h2 class="text-2xl lg:text-5xl text-base lg:mb-10 mb-5 font-normal text-green-500 leading-10 font-sans">It’s a spotlight problem.</h2>
+      <p class="text-md sm:text-lg sm:text-center text-gray-700 mb-1 lg:mb-2 max-w-[95%] lg:text-2xl">Tech hiring needs a reset. From prepping for jobs and practicing coding to running a <br>world-class technical interview, give developers the tools they need to showcase their <br>skills, passion, and potential.</p>
       
-      <div class="flex justify-center  mb-12 links space-x-8">
+      <div class="flex justify-center mb-12 links gap-2 md:gap-8">
         <a href="#content" class="text-black hover:underline font-bold text-2xl space-x-8">Prep</a>
         <div class="w-9"></div>
         <a href="#coding" class="text-black hover:underline font-bold text-2xl">Screen</a>
@@ -149,91 +150,85 @@
         <a href="#interviews" class="text-black hover:underline font-bold text-2xl">Interview</a>
     </div>
   
-<div class="container mx-auto bg-gray-900 text-white font-size-[1.2em] h-70vh w-78% my-4 p-8 flex items-center relative" id="content">
-  <div class="content flex-1">
-      <p class="text-sm text-left mb-38">:: Coding practice ::</p>
-      <h3 class="lg:text-3xl text-base mt-2 mb-1 leading-15 lg:text-left  lg:mb-20 mb-10">Explore and expand your skills.</h3>
-      <p class="white mb-4 lg:text-xl text-base leading-32 text-left lg:mb-24 mx-auto text-base ">
-          Every idea has a first line of code. Prep for jobs and 
-          <br>
-          sharpen your skills alongside a global community of <br> developers. Access the content you need to <br>develop new skills – and land the job you’ve dreamed of.
-      </p>
-      <button class="py-2 px-6 bg-gray-900 text-white border border-gray-500 mx-auto leading-10 lg:text-left block"><a href="./Signup.html">Sign Up and Practice</a></button>   
-    </div>
-  <img src="Images/community.jpg" alt="community" class="max-w-full w-1/2 lg:ml-10 ml-20">
-</div>
+      <div class=" mx-auto bg-gray-900 text-white text-lg md:text-3xl w-full sm:w-[90%] px-2 lg:px-6 flex flex-col lg:flex-row lg:justify-between lg:items-center justify-center items-center" id="content">
+        <div class="max-w-[95%] sm:w-full text-center lg:text-start">
+            <p class="text-[15px] md:text-[17px]">:: Coding practice ::</p>
+            <h3 class="mb-5 md:mb-10">Explore and expand your skills.</h3>
+            <p class="text-lg md:text-2xl ">
+                Every idea has a first line of code. Prep for jobs and 
+                <br>
+                sharpen your skills alongside a global community of <br> developers. Access the content you need to <br>develop new skills – and land the job you’ve dreamed of.
+            </p>
+            <button class="py-3 px-6 mt-4 md:mt-8 bg-gray-900 text-white border border-gray-500"><a href="./Signup.html">Sign Up and Practice</a></button>   
+          </div>
+        <img src="Images/community.jpg" alt="community" class="w-full lg:w-1/2 ">
+      </div>
 
-      <div class="coding flex justify-center items-center mt-4 mb-16 w-full" id="coding">
-        <div class="content text-left py-24">
-            <p class="text-sm lg:leading-10 font-sans lg:text-base">:: Coding tests ::</p>
-            <h2 class="lg:text-5xl text-2xl font-sans font-sans lg:leading-15 leading-10 font-light mb-1">Join the movement.</h2>
-            <h2 class="lg:text-5xl text-2xl mb-8 text-green-500 font-light">Screen on skills.</h2>
-            <img src="Images/report-2.jpg" alt="report" class="max-w-[1224px] w-full mx-auto">
-        </div>
-    </div>
+      <div class=" flex flex-col text-start mt-4 lg:mt-8 mb-6 lg:mb-12 w-full" id="coding">
+          <p class="pl-6">:: Coding tests ::</p>
+          <h2 class="pl-6 text-3xl lg:text-5xl my-1 lg:my-3">Join the movement.</h2>
+          <h2 class="pl-6 text-3xl lg:text-5xl text-[rgb(6,137,50)] mb-4">Screen on skills.</h2>
+          <img src="Images/report-2.jpg" alt="report" class="w-full mx-auto">
+      </div>
     
   </section> 
   
 <!-- first  -->
-<div class="parent-container flex items-center justify-center my-10 pl-24  max-w-[1224px] mx-auto">
-    <div class="w-[45%] flex flex-col justify-center items-center text-center px-10">
+<div class="w-5/6 flex gap-4 items-center flex-col lg:flex-row mb-10 justify-between mx-auto">
+    <div class="w-full lg:w-[45%] flex flex-col justify-center items-center text-center">
         <h2 class="lg:text-4xl text-2xl pb-2 font-sans">Leave the binary tree <br> behind.</h2>
-        <p class="lg:text-2xl text-base text-gray-500 pb-2 line-2rem">Build coding questions using our library of dev-<br>
-            friendly content that challenges them to solve <br>
+        <p class="lg:text-2xl text-gray-500 pb-2 sm:max-w-[85%]">Build coding questions using our library of dev-
+            friendly content that challenges them to solve
             the problems they’d actually tackle on the job.</p>
         <div class="flex items-center justify-center mt-5">
             <a class="lg:font-bold font-medium text-black" href="#">Start free trial</a>
-            <img src="Images/icons8-arrow-30.png" alt="arrow" class="ml-2 max-w-full h-auto">
+            <img src="Images/icons8-arrow-30.png" alt="arrow">
         </div>
     </div>
-    <div data-aos="fade-up-left" class="w-[55%]">
+    <div data-aos="fade-up-left" class="w-full lg:w-[55%]">
         <img style=" 
-        box-shadow:0px 9px 30px rgba(255, 149, 5, 0.3);" src="Images/binarytree-1.png" alt="binarytree" 
-        class=" custom-border" width="580">
+        box-shadow:0px 9px 30px rgba(255, 149, 5, 0.3);" src="Images/binarytree-1.png" alt="binarytree" >
     </div>
 </div>
 
 <!-- second -->
-<div class="parent-container flex items-center justify-center my-10 pl-24  max-w-[1224px] mx-auto">
-  <div class="w-[45%] flex flex-col justify-center items-center text-center px-10">
-    <h2 class="lg:text-4xl text-2xl pb-2 font-sans pt-24">Focus on what really <br>
+<div class="w-5/6 flex gap-4 items-center flex-col lg:flex-row mb-10 justify-between mx-auto">
+  <div class="w-full lg:w-[45%] flex flex-col justify-center items-center text-center">
+    <h2 class="lg:text-4xl text-2xl pb-2 font-sans">Focus on what really <br>
         matters: the code.
     </h2>
-    <p class="lg:text-2xl text-base text-gray-500 pb-2 line-2rem">Build skills-based coding tests with tech<br>
-        problems a developer would encounter on the<br>
-        job — and hire the team behind your next big<br>
+    <p class="lg:text-2xl text-gray-500 pb-2 sm:max-w-[85%]">Build skills-based coding tests with tech
+        problems a developer would encounter on the
+        job — and hire the team behind your next big
         idea.
     </p>
-    <a class="lg:font-bold flex items-center font-medium text-black">Request a demo <img src="Images\icons8-arrow-30.png" alt="arrow"
-       class=" max-w-full h-auto">
-    </a>
+    <div class="flex items-center justify-center mt-5">
+        <a class="lg:font-bold font-medium text-black" href="#">Request a demo</a>
+        <img src="Images/icons8-arrow-30.png" alt="arrow">
+    </div>
   </div>
-    <div class="w-[55%]" data-aos="fade-up-left">
+    <div class="w-full lg:w-[55%]" data-aos="fade-up-left">
         <img style=" 
-        box-shadow:0px 9px 30px rgba(255, 149, 5, 0.3);" src="Images/code-1.png"
-          class=" custom-border" width="580">
+        box-shadow:0px 9px 30px rgba(255, 149, 5, 0.3);" src="Images/code-1.png">
     </div>
 </div>
 
-
-
 <!-- third -->
-<div class="parent-container flex items-center justify-center my-20 pl-24  max-w-[1224px] mx-auto">
-  <div class="w-[45%] flex flex-col justify-center items-center text-center px-10">
+<div class="w-5/6 flex gap-4 items-center flex-col lg:flex-row mb-8 lg:mb-16 justify-between mx-auto">
+  <div class="w-full lg:w-[45%] flex flex-col justify-center items-center text-center">
       <h2 class="lg:text-4xl text-2xl pb-2 font-sans">Identify top contenders</h2>
-      <p class="lg:text-2xl text-base text-gray-500 pb-2 line-2rem">Identify top contenders and invite them to meet<br>
-          your team using data-driven decisions that help<br> level the playing field for developers <br>
+      <p class="lg:text-2xl text-gray-500 pb-2 sm:max-w-[85%]">Identify top contenders and invite them to meet
+          your team using data-driven decisions that help level the playing field for developers
           everywhere.
       </p>
-      <div class="flex items-center justify-center">
-          <a class="lg:font-bold font-medium text-black">Learn more</a>
-          <img src="Images\icons8-arrow-30.png" class="ml-2 max-w-full h-auto">
-      </div>
+      <div class="flex items-center justify-center mt-5">
+            <a class="lg:font-bold font-medium text-black" href="#">Learn More</a>
+            <img src="Images/icons8-arrow-30.png" alt="arrow">
+        </div>
   </div>
-  <div data-aos="fade-up-left" class="w-[55%]">
+  <div data-aos="fade-up-left" class="w-full lg:w-[55%]">
       <img style=" 
-      box-shadow:0px 9px 30px rgba(255, 149, 5, 0.3);" src="Images/contenders.png"
-       class="max-w-full mt-[-40px]  mx-auto inline-block custom-border" width="580">
+      box-shadow:0px 9px 30px rgba(255, 149, 5, 0.3);" src="Images/contenders.png">
   </div>
 
 </div>
@@ -278,16 +273,7 @@
           <p class="text-base font-light mb-4">That includes 25% of the Fortune 100 — and that <br> moonshot startup that just came out of stealth.</p>
       </div>
     </section>      
-      <!--<div class="logos flex flex-wrap items-center justify-center mt-6 w-full md:w-1/2 lg:w-7/12">
-            <img src="Images/peloton_black.png" class="w-[91px] mx-2">
-            <img src="Images/atlassian_black.png" class="w-[131px] mx-2">
-            <img src="Images/bloomberg_black.png" class="w-[91px] mx-2">
-            <img src="Images/vmware_black.png" class="w-[91px] mx-2">
-            <img src="Images/stripe_black.png" class="w-[91px] mx-2">
-            <img src="Images/goldmansachs_black.png" class="w-[91px] mx-2">
-            <img src="Images/adobe_black.png" class="w-[91px] mx-2">
-            <img src="Images/linkedin_black.png" class="w-[91px] mx-2">
-         </div> -->
+     
 
       <div id="images"  class="w-full flex flex-wrap lg:pl-36">
         <img class="w-[91px] h-[60px] mr-[50px] mv-[40px]" src="Images/peloton_black.png" alt="">
@@ -299,11 +285,8 @@
         <img class="w-[89px] h-[60px] mr-[50px] mv-[40px]"  src="Images/adobe_black.png" alt="">
         <img class="w-[115px] h-[60px] mr-[50px] mv-[40px]"  src="Images/linkedin_black.png" alt="">        
       </div>
-  </div>
-
-
-
   
+
    <section class="mt-10 flex" style="background: linear-gradient(to bottom, white, #E8F6ED);">
             <div class="w-1/2 flex flex-col justify-center items-start px-36 py-36 mx-2 md:mx-4">
                 <h3 class="text-2xl md:text-3xl font-semibold mb-2 md:mb-3 font-sans">
@@ -464,6 +447,8 @@
           </div>
       </div>
   </footer>
+
+
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
