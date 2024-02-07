@@ -98,8 +98,23 @@
   </div>
 
   <!-- hamburger -->
-  <div class="border xl:hidden">Menu</div>
-
+  <!-- <div class="border xl:hidden">Menu</div>
+  <div class="menu-items hidden bg-white p-4">
+    <a href="#" class="block mb-2">Product</a>
+    <a href="#" class="block mb-2">Solution</a>
+    <a href="#" class="block mb-2">Resources</a>
+</div> -->
+<div id="menu" class="border xl:hidden p-4 cursor-pointer relative">
+  <img src="Images/menu-line.png">
+  <div class="menu-items hidden absolute bg-white p-4 mt-2 w-full  left-0">
+      <a href="#" class="block mb-2">Product</a>
+      <a href="#" class="block mb-2">Solution</a>
+      <a href="#" class="block mb-2">Resources</a>
+      <a href="#" class="block mb-2">Pricing</a>
+      <a href="#" class="block mb-2">For Developers</a>
+      <a href="#" class="block mb-2">Request Demo</a>
+  </div>
+</div>
   <!-- hamburger -->
 </header>
   
@@ -447,19 +462,19 @@
         AOS.init();
       </script>
       <script>
-        const hamburger = document.querySelector('.hamburger');
-        const bar1 = document.querySelector('.bar1');
-        const bar2 = document.querySelector('.bar2');
-        const bar3 = document.querySelector('.bar3');
-        const mobileNav = document.querySelector('.mobileNav');
+    
+    document.addEventListener("DOMContentLoaded", function() {
+        const menu = document.getElementById("menu");
 
-hamburger.addEventListener('click' , ()=>{
-    bar1.classList.toggle("animateBar1");
-    bar2.classList.toggle("animateBar2");
-    bar3.classList.toggle("animateBar3");
-    mobileNav.classList.toggle("openDrawer");
-});
-      </script>
+        menu.addEventListener("click", function() {
+            // Toggle the visibility of the menu items
+            const menuItems = document.querySelector(".menu-items");
+            menuItems.classList.toggle("hidden");
+        });
+    });
+</script>
+      
+      
 
 </body>
 </html>
