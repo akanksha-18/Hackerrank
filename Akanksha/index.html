@@ -10,124 +10,119 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="icon" href="Images/fevicon.png">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <style>
+      .custom-border {
+        border: 4px solid rgba(0, 128, 0, 0.25);
+        box-shadow: 0 4px 6px -1px rgba(0, 128, 0, 0.1), 0 2px 4px -1px rgba(0, 128, 0, 0.06);
+      }
+      </style>
 </head>
 <body>
-  <nav class="h-[5.5vh] bg-gradient-to-r from-black from-0% via-[rgb(26,64,85)] via-20%  to-black to-90%  text-[rgb(183,201,204)] text-[1rem] hidden xl:flex justify-end pr-[12rem] items-center">
-    <div class="px-4"><a href="https://akanksha-18.github.io/Hackerrank/Anchit/contact_us.html">Contact Us</a></div>
-    <div class="px-4  border-l-2 border-[hsl(189,17%,76%)]"><a href="https://akanksha-18.github.io/Hackerrank/Anchit/login.html">Log in</a></div>
+  <nav class="h-[5.5vh] bg-gradient-to-r from-black from-0% via-[rgb(26,64,85)] via-20% to-black to-90%  text-[rgb(183,201,204)] text-[1rem] hidden xl:flex justify-end pr-[12rem] items-center">
+    <div class="px-4"><a class="hover:text-white" href="../Anchit/contact_us.html">Contact Us</a></div>
+    <div class="px-4  border-l-2 border-[hsl(189,17%,76%)]"><a class="hover:text-white"  href="../Anchit/login.html">Log in</a></div>
 </nav>
-
-<!-- <div id="header" class="w-full shadow-xl bg-white  sticky top-0 z-40">
-  <header class=" h-[80px] w-[100%] lg:max-w-[1024px] xl:max-w-[1224px] 2xl:max-w-[1224px] mx-auto bg-white text-black flex justify-between items-center">
-    <div class="flex">
-        <a href="" class="px-6 lg:px-0"><img src="Images/hackerrank_logo.png" class="w-[168px] h-[20px]"></a>
-    </div>
-    <div class="hidden lg:flex shrink gap-x-8 font-semibold text-lg">
-      <div class="group">
-        <p class="hover:text-[rgb(6,137,50)] hover:cursor-pointer">Products</p>
-        <div class="hidden absolute bg-white shadow-md z-10 p-4 max-w-xs text-gray-500 product-content group-hover:block w-56">
-          <p>Save time and accelerate your hiring.</p>
-          <p>Conduct stellar technical interviews.</p>
-          <p>Launch standardized, role-based tests in minutes.</p>
-          <p>Ensure fairness with AI-powered plagiarism detection.</p>
-          <p>Assess technical hires with real-world coding questions.</p>
-        </div>
-      </div>
-      <div class="group">
-        <p class="hover:text-[rgb(6,137,50)] hover:cursor-pointer">Solutions</p>
-        <div class="hidden absolute bg-white shadow-md z-10 p-4 max-w-xs text-gray-500 product-content group-hover:block w-56">
-                    <p>What We Do</p>
-                    <p>Set Up Your Skills Strategy</p>
-                    <p>Showcase Your Talent Brand</p>
-                    <p>Optimize Your Hiring Process</p>
-                    <p>Mobilize Your Internal Talent</p>
-                    <p>Embrace AI</p>
-                    <p>Use Cases</p>
-                   <p>Remote Hiring</p>
-                   <p>University Hiring</p>
-        </div>
-      </div> 
-      <div class="group">
-        <p class="hover:text-[rgb(6,137,50)] hover:cursor-pointer">Resources</p>
-        <div class="hidden absolute bg-white shadow-md z-10 p-4 max-w-xs text-gray-500 product-content group-hover:block w-56">
-          <p>Blog</p>
-          <p>Hiring best practices, job-hunting tips, and industry insights.</p>
-          
-          <p>Roles Directory</p>
-          <p>Explore the definitive directory of tech roles.</p>
-          
-          <p>Resource Library</p>
-          <p>Guides, datasheets, and data-driven content for making the best hires.</p>
-          
-          <p>Customer Stories</p>
-          <p>Discover how leading companies use HackerRank to hire technical talent.</p>
-          
-          <p>Product Help</p>
-          <p>Partners</p>
-        </div>
-        </div>
-
-        <a class="hover:text-[rgb(6,137,50)]" href="">Pricing</a>
-    </div>
-    <div class="hidden lg:flex items-center gap-x-4 font-semibold text-lg">
-        <a href="" class="px-4  border-r-2 border-[rgb(0,0,0)]">For developers</a>
-        <a href="https://akanksha-18.github.io/Hackerrank/Anchit/request_demo.html" class="px-3 pt-2 pb-2.5  bg-[rgb(247,247,247)] rounded text-center">Request demo</a>
-        <a href="https://akanksha-18.github.io/Hackerrank/Akanksha/Signup.html" class="px-3 pt-2 pb-2.5 bg-[rgb(6,137,50)] text-white rounded text-center">Sign up</a>
-    </div>
-
-    hamburger -->
-    <!-- <div></div> -->
-
-    <!-- hamburger -->
-  <!-- </header> -->
-<!-- </div> -->
 
 <header class="py-5 px-3 md:px-6 lg:px-16 xl:px-36 w-full shadow-xl bg-white flex sticky top-0 left-0 text-black justify-between items-center z-40">
   <div class="flex">
-      <a href="https://akanksha-18.github.io/Hackerrank/Akanksha/" class="px-6 lg:px-0 w-[168px] h-[20px]"><img src="Images/hackerrank_logo.png"></a>
+      <a href="./index.html" class="px-6 lg:px-0 w-[168px] h-[20px]"><img src="Images/hackerrank_logo.png"></a>
   </div>
   <div class="hidden xl:flex shrink gap-x-8 font-semibold text-lg">
+    <div class="relative group">
       <p class="hover:text-[rgb(6,137,50)] hover:cursor-pointer">Products</p>
-      <p class="hover:text-[rgb(6,137,50)] hover:cursor-pointer">Solutions</p>
-      <p class="hover:text-[rgb(6,137,50)] hover:cursor-pointer">Resources</p>
-      <a class="hover:text-[rgb(6,137,50)]" href="https://akanksha-18.github.io/Hackerrank/Ranita/pricing.html">Pricing</a>
-  </div>
-  <div class="hidden xl:flex justify-between items-center gap-x-4 font-semibold text-lg">
-      <a href="https://akanksha-18.github.io/Hackerrank/Abhishek/index.html" class="px-4  border-r-2 border-[rgb(0,0,0)]">For developers</a>
-      <a href="https://akanksha-18.github.io/Hackerrank/Anchit/request_demo.html" class="px-3 pt-2 pb-2.5  bg-[rgb(247,247,247)] rounded text-center">Request demo</a>
-      <a href="https://akanksha-18.github.io/Hackerrank/Akanksha/Signup.html" class="px-3 pt-2 pb-2.5 bg-[rgb(6,137,50)] text-white rounded text-center">Sign up</a>
-  </div>
-
-  <!-- hamburger -->
-  <div class="border xl:hidden">Menu</div>
-
-  <!-- hamburger -->
-</header>
-      <!-- <section class="flex justify-center items-center relative h-90vh overflow-hidden bg-gradient-to-r from-[rgba(253, 254, 255, 0.4)] from-0% via-[rgba(205, 237, 247, 0.1)] via-50% to-[rgba(173, 216, 230, 0.4)] to-100%">
-      <div class="text-center text-black">
-          <h1 class="pt-48 text-base font-bold leading-tight text-gray-800 font-sans md:text-8xl">Skills speak louder <br> than words</h1>
-          <p class="mt-5 text-base text-gray-500 font-sans mb-4 md:text-2xl">We help companies develop the strongest tech teams around. We help<br> candidates sharpen their tech skills and pursue job opportunities.</p>
-          <a href="https://akanksha-18.github.io/Hackerrank/Akanksha/Signup.html" class="inline-block px-12 py-4 mt-8 mb-20 text-lg font-bold text-white transition duration-300 bg-green-500 rounded-md hover:bg-green-700">Sign Up</a>
-          <a href="https://akanksha-18.github.io/Hackerrank/Anchit/request_demo.html" class="inline-block px-12 py-4 text-lg font-bold text-black transition duration-300 bg-white border border-black rounded-md hover:bg-black hover:text-white">Request Demo</a>
-          <p class="mt-5 text-gray-600 font-sans text:base md:text-2xl">Over 40% of developers worldwide and 3,000 companies use HackerRank</p>
-          <div class="flex justify-center items-center mt-5">
-              <img src="Images/peloton_black.png" class="h-16 w-24 mx-1">
-              <img src="Images/atlassian_black.png" class="h-16 w-24 mx-1">
-              <img src="Images/bloomberg_black.png" class="h-16 w-24 mx-1">
-              <img src="Images/vmware_black.png" class="h-16 w-24 mx-1">
-              <img src="Images/stripe_black.png" class="h-16 w-24 mx-1">
-              <img src="Images/goldmansachs_black.png" class="h-16 w-24 mx-1">
-              <img src="Images/adobe_black.png" class="h-16 w-24 mx-1">
-              <img src="Images/linkedin_black.png" class="h-16 w-24 mx-1">
+      <div class="hidden absolute bg-white shadow-md z-10 p-8 text-gray-500 product-content group-hover:inline-flex space-x-8 w-[500px]">
+          <div>
+              <h1 class="hover:text-green-500 hover:bg-green-100 hover:cursor-pointer font-bold text-black">Screen</h1>
+              <p class="text-base font-medium text-gray-600 pb-4">Save time and accelerate your hiring.</p>
+              <h1 class="hover:text-green-500 hover:bg-green-100 hover:cursor-pointer font-bold text-black">Interview</h1>
+              <p class="text-base font-medium text-gray-600 pb-4">Conduct stellar technical interviews.</p>
+              <h1 class="hover:text-green-500 hover:bg-green-100 hover:cursor-pointer font-bold text-black">Certified Assessment</h1>
+              <p class="text-base font-medium text-gray-600 pb-4">Launch standardized, role-based tests in minutes.</p>
+          </div>
+          <div>
+              <h1 class="hover:text-green-500 hover:bg-green-100 hover:cursor-pointer font-bold text-black">Plagiarism Detection</h1>
+              <p class="text-base font-medium text-gray-600 pb-4">Ensure fairness with AI-powered plagiarism detection.</p>
+              <h1 class="hover:text-green-500 hover:bg-green-100 hover:cursor-pointer font-bold text-black">Real World</h1>
+              <p class="text-base font-medium text-gray-600 pb-4">Assess technical hires with real-world coding questions.</p>
           </div>
       </div>
-  </section> -->
-  <section class="flex justify-center items-center relative h-90vh overflow-hidden bg-gradient-to-r from-[rgba(253, 254, 255, 0.4)] from-0% via-[rgba(205, 237, 247, 0.1)] via-50% to-[rgba(173, 216, 230, 0.4)] to-100%">
+  </div>
+
+     <div class="relative group">
+      <p class="hover:text-[rgb(6,137,50)] hover:cursor-pointer">Solutions</p>
+      <div class="hidden absolute bg-white shadow-md z-10 p-8 text-gray-500 product-content group-hover:inline-flex space-x-8 w-[500px]">
+          <div>
+            <h1 class="hover:text-green-500 hover:bg-green-100 hover:cursor-pointer font-bold text-black">What We Do</h1>
+            <p  class="text-base font-medium text-gray-600 pb-4">Set Up Your Skills Strategy</p>
+            <p  class="text-base font-medium text-gray-600 pb-4">Showcase Your Talent Brand</p>
+            <p  class="text-base font-medium text-gray-600 pb-4">Optimize Your Hiring Process</p>
+            <p  class="text-base font-medium text-gray-600 pb-4">Mobilize Your Internal Talent</p>
+          </div>
+          <div>
+            <h1 class="hover:text-green-500 hover:bg-green-100 hover:cursor-pointer font-bold text-black">Uses Case</h1>
+            <p class="text-base font-medium text-gray-600 pb-4">Remote Hiring</p>
+            <p class="text-base font-medium text-gray-600 pb-4">University Hiring</p> 
+          </div>
+      </div>
+  </div>
+  <div class="relative group">
+    <p class="hover:text-[rgb(6,137,50)] hover:cursor-pointer">Resources</p>
+    <div class="hidden absolute bg-white shadow-md z-10 p-8 text-gray-500 product-content group-hover:inline-flex space-x-8 w-[500px]">
+        <div>
+          <h1 class="hover:text-green-500 hover:bg-green-100 hover:cursor-pointer font-bold text-black">Blog</h1>
+          <p class="text-base font-medium text-gray-600 pb-4">Hiring best practices, job-hunting tips, and industry insights.</p>
+          
+          <h1 class="hover:text-green-500 hover:bg-green-100 hover:cursor-pointer font-bold text-black">Roles Directory</h1>
+          <p class="text-base font-medium text-gray-600 pb-4">Explore the definitive directory of tech roles.</p>
+          
+          <h1 class="hover:text-green-500 hover:bg-green-100 hover:cursor-pointer font-bold text-black">Resource Library</h1>
+          <p class="text-base font-medium text-gray-600 pb-4">Guides, datasheets, and data-driven content for making the best hires.</p>
+        </div>
+        <div>
+          <h1 class="hover:text-green-500 hover:bg-green-100 hover:cursor-pointer font-bold text-black">Customer Stories</h1>
+          <p class="text-base font-medium text-gray-600 pb-4">Discover how leading companies use HackerRank to hire technical talent.</p>
+          
+          <h1 class="hover:text-green-500 hover:bg-green-100 hover:cursor-pointer font-bold text-black">Product Help</h1>
+          <p class="text-base font-medium text-gray-600 pb-4">Partners</p>
+        </div>
+    </div>
+</div>
+      <a class="hover:text-[rgb(6,137,50)]" href="../Anchit/pricing.html">Pricing</a>
+  </div>
+  <div class="hidden xl:flex justify-between items-center gap-x-4 font-semibold text-lg">
+      <a href="../Abhishek/index.html" class="px-4  border-r-2 border-[rgb(0,0,0)]">For developers</a>
+      <a href="../Anchit/request_demo.html" class="px-3 pt-2 pb-2.5  bg-[rgb(247,247,247)] rounded text-center">Request demo</a>
+      <a href="./Signup.html" class="px-3 pt-2 pb-2.5 bg-[rgb(6,137,50)] text-white rounded text-center">Sign up</a>
+      <a href="./compiler.html" class="px-3 pt-2 pb-2.5 bg-[rgb(6,137,50)] text-white rounded text-center">Playground</a>
+  </div>
+
+  <div id="menu" class="border xl:hidden p-4 cursor-pointer">
+  <img src="Images/menu-line.png" class="xl:hidden ">
+  <div class="menu-items hidden absolute bg-white flex flex-col items-center justify-around w-full sm:w-1/2 h-80 top-20 right-2">
+      <a href="#" class="block mb-2">Product</a>
+      <a href="#" class="block mb-2">Solution</a>
+      <a href="#" class="block mb-2">Resources</a>
+      <a href="#" class="block mb-2">Pricing</a>
+      <a href="../Abhishek/index.html" class="block mb-2 hover:bg-green-100 hover:cursor-pointer">For Developers</a>
+      <a href="../Anchit/request_demo.html" class="block mb-2 hover:bg-green-100 hover:cursor-pointer">Request Demo</a>
+      <a href="./Signup.html" class="block mb-2 hover:bg-green-100 hover:cursor-pointer">Sign up</a>
+  </div>
+</div>
+  <!-- hamburger -->
+</header>
+  <!-- linear gradient -->
+  <section class="flex justify-center items-center relative h-90vh overflow-hidden bg-gradient-to-r from-[rgba(253, 254, 255, 0.4)] from-0% via-[rgba(205, 237, 247, 0.1)] via-50% to-[rgba(173, 216, 230, 0.4)] to-100%" style="background: linear-gradient(to bottom, white, #E8F6ED);">
     <div class="text-center text-black px-6 md:px-12 lg:px-24 xl:px-32">
-        <h1 class="pt-12 md:pt-24 text-3xl md:text-6xl lg:text-8xl font-bold leading-tight text-gray-800 font-sans">Skills speak louder <br> than words</h1>
+        <h1 
+        style="background: -webkit-linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-shadow: 0px 0px 210px rgb(49,197,101);
+        " class="pt-12 md:pt-24 text-3xl md:text-6xl lg:text-8xl font-bold leading-tight font-sans">Skills speak louder <br> than words</h1>
         <p class="mt-5 text-base md:text-lg lg:text-2xl text-gray-500 font-sans mb-4">We help companies develop the strongest tech teams around. We help<br> candidates sharpen their tech skills and pursue job opportunities.</p>
-        <a href="https://akanksha-18.github.io/Hackerrank/Akanksha/Signup.html" class="inline-block px-6 md:px-12 py-4 mt-8 mb-12 text-lg md:text-xl lg:text-2xl font-bold text-white transition duration-300 bg-green-500 rounded-md hover:bg-green-700">Sign Up</a>
-        <a href="https://akanksha-18.github.io/Hackerrank/Anchit/request_demo.html" class="inline-block px-6 md:px-12 py-4 text-lg md:text-xl lg:text-2xl font-bold text-black transition duration-300 bg-white border border-black rounded-md hover:bg-black hover:text-white">Request Demo</a>
+        <a href="./Signup.html" class="inline-block px-6 md:px-12 py-4 mt-8 mb-12 text-lg md:text-xl lg:text-2xl font-bold text-white transition duration-300 bg-green-500 rounded-md hover:bg-green-700">Sign Up</a>
+        <a href="../Anchit/request_demo.html" class="inline-block px-6 md:px-12 py-4 text-lg md:text-xl lg:text-2xl font-bold text-black transition duration-300 bg-white border border-black rounded-md hover:bg-black hover:text-white">Request Demo</a>
         <p class="mt-5 text-gray-600 font-sans text-base md:text-lg lg:text-2xl">Over 40% of developers worldwide and 3,000 companies use HackerRank</p>
         <div class="flex justify-center items-center mt-5">
             <img src="Images/peloton_black.png" class="h-10 md:h-16 lg:h-20 xl:h-24 mx-1">
@@ -143,12 +138,12 @@
 </section>
 
   
-   <section class="text-center py-56 Second">
-      <h2 class="md:text-5xl md:mb-10 font-light font-sans font-medium font-Sans mb-2">It’s not a pipeline problem.</h2>
-      <h2 class="text-5xl mb-10 font-light text-green-500 leading-10 font-sans">It’s a spotlight problem.</h2>
-      <p class="text-lg text-gray-700 mb-8 mb-1 leading-8 text-2xl">Tech hiring needs a reset. From prepping for jobs and practicing coding to running a <br>world-class technical interview, give developers the tools they need to showcase their <br>skills, passion, and potential.</p>
+   <section class="text-center py-10 md:py-20 lg:py-28 ">
+      <h2 class="text-2xl lg:text-5xl lg:mb-10 font-light font-sans font-medium font-Sans mb-2">It’s not a pipeline problem.</h2>
+      <h2 class="text-2xl lg:text-5xl text-base lg:mb-10 mb-5 font-normal text-green-500 leading-10 font-sans">It’s a spotlight problem.</h2>
+      <p class="text-md sm:text-lg sm:text-center text-gray-700 mb-1 lg:mb-2 max-w-[95%] lg:text-2xl">Tech hiring needs a reset. From prepping for jobs and practicing coding to running a <br>world-class technical interview, give developers the tools they need to showcase their <br>skills, passion, and potential.</p>
       
-      <div class="flex justify-center  mb-12 links space-x-8">
+      <div class="flex justify-center mb-12 links gap-2 md:gap-8">
         <a href="#content" class="text-black hover:underline font-bold text-2xl space-x-8">Prep</a>
         <div class="w-9"></div>
         <a href="#coding" class="text-black hover:underline font-bold text-2xl">Screen</a>
@@ -156,142 +151,145 @@
         <a href="#interviews" class="text-black hover:underline font-bold text-2xl">Interview</a>
     </div>
   
-<div class="container mx-auto bg-gray-900 text-white font-size-[1.2em] h-70vh w-78% my-4 p-8 flex items-center relative" id="content">
-  <div class="content flex-1">
-      <p class="text-sm text-left mb-38">:: Coding practice ::</p>
-      <h3 class="text-3xl mt-2 mb-1 leading-15 text-left mb-20">Explore and expand your skills.</h3>
-      <p class="white mb-4 text-xl leading-32 text-left mb-24 ">
-          Every idea has a first line of code. Prep for jobs and 
-          <br>
-          sharpen your skills alongside a global community of <br> developers. Access the content you need to <br>develop new skills – and land the job you’ve dreamed of.
-      </p>
-      <button class="py-2 px-6 bg-gray-900 text-white border border-gray-500  leading-10 text-left block">Sign Up and Practice</button>   
-    </div>
-  <img src="Images/community.jpg" alt="community" class="max-w-full w-1/2 ml-10">
-</div>
+      <div class=" mx-auto bg-gray-900 text-white text-lg md:text-3xl w-full sm:w-[90%] px-2 lg:px-6 flex flex-col lg:flex-row lg:justify-between lg:items-center justify-center items-center" id="content">
+        <div class="max-w-[95%] sm:w-full text-center lg:text-start">
+            <p class="text-[15px] md:text-[17px]">:: Coding practice ::</p>
+            <h3 class="mb-5 md:mb-10">Explore and expand your skills.</h3>
+            <p class="text-lg md:text-2xl ">
+                Every idea has a first line of code. Prep for jobs and 
+                <br>
+                sharpen your skills alongside a global community of <br> developers. Access the content you need to <br>develop new skills – and land the job you’ve dreamed of.
+            </p>
+            <button class="py-3 px-6 mt-4 md:mt-8 bg-gray-900 text-white border border-gray-500"><a href="./Signup.html">Sign Up and Practice</a></button>   
+          </div>
+        <img src="Images/community.jpg" alt="community" class="w-full lg:w-1/2 ">
+      </div>
 
-      <div class="coding flex justify-center items-center mt-4 mb-16 w-full" id="coding">
-        <div class="content text-left py-24">
-            <p class="text-sm leading-10 font-sans">:: Coding tests ::</p>
-            <h2 class="text-5xl font-sans font-sans leading-15 font-light mb-1">Join the movement.</h2>
-            <h2 class="text-5xl mb-8 text-green-500 font-light">Screen on skills.</h2>
-            <img src="Images/report-2.jpg" alt="report" class="max-w-[1224px] w-full mx-auto">
-        </div>
-    </div>
+      <div class=" flex flex-col text-start mt-4 lg:mt-8 mb-6 lg:mb-12 w-full" id="coding">
+          <p class="pl-6">:: Coding tests ::</p>
+          <h2 class="pl-6 text-3xl lg:text-5xl my-1 lg:my-3">Join the movement.</h2>
+          <h2 class="pl-6 text-3xl lg:text-5xl text-[rgb(6,137,50)] mb-4">Screen on skills.</h2>
+          <img src="Images/report-2.jpg" alt="report" class="w-full mx-auto">
+      </div>
     
   </section> 
   
-
-<div class="parent-container flex items-center justify-center">
-<section class="binary flex justify-center relative mx-auto mt-0">
-  <div class="flex-1 mr-2 text-center">
-      <h2 class="text-4xl pb-2 font-sans">Leave the binary tree <br> behind.</h2>
-      <p class="text-2xl text-gray-500 pb-2 line-2rem">Build coding questions using our library of dev-<br>
-          friendly content that challenges them to solve <br>
-          the problems they’d actually tackle on the job.</p>
-      <div class="flex items-center justify-center mt-5">
-          <a class="font-bold text-black" href="#">Start free trial</a>
-          <img src="Images/icons8-arrow-30.png" alt="arrow" class="ml-2 max-w-full h-auto">
-      </div>
-  </div>
-  <div data-aos="fade-up-left" class="mt-[-30px]">
-      <img src="Images/binarytree-1.png" alt="binarytree" class="max-w-full mx-auto" width="600">
-  </div>
-</section>
+<!-- first  -->
+<div class="w-5/6 flex gap-4 items-center flex-col lg:flex-row mb-10 justify-between mx-auto">
+    <div class="w-full lg:w-[45%] flex flex-col justify-center items-center text-center">
+        <h2 class="lg:text-4xl text-2xl pb-2 font-sans">Leave the binary tree <br> behind.</h2>
+        <p class="lg:text-2xl text-gray-500 pb-2 sm:max-w-[85%]">Build coding questions using our library of dev-
+            friendly content that challenges them to solve
+            the problems they’d actually tackle on the job.</p>
+        <div class="flex items-center justify-center mt-5">
+            <a class="lg:font-bold font-medium text-black" href="#">Start free trial</a>
+            <img src="Images/icons8-arrow-30.png" alt="arrow">
+        </div>
+    </div>
+    <div data-aos="fade-up-left" class="w-full lg:w-[55%]">
+        <img style=" 
+        box-shadow:0px 9px 30px rgba(255, 149, 5, 0.3);" src="Images/binarytree-1.png" alt="binarytree" >
+    </div>
 </div>
 
-<div class="parent-container flex items-center justify-center">
-<section class="binary flex h-60vh pt-20 pr-15rem pb-5rem pl-15rem relative mx-auto">
-  <div class="flex-1 mr-2 text-center">
-    <h2 class="text-4xl pb-2 font-sans pt-24">Focus on what really <br>
-        matters: the code.</h2>
-    <p  class="text-2xl text-gray-500 pb-2 line-2rem">Build skills-based coding tests with tech<br>
-        problems a developer would encounter on the<br>
-        job — and hire the team behind your next big<br>
+<!-- second -->
+<div class="w-5/6 flex gap-4 items-center flex-col lg:flex-row mb-10 justify-between mx-auto">
+  <div class="w-full lg:w-[45%] flex flex-col justify-center items-center text-center">
+    <h2 class="lg:text-4xl text-2xl pb-2 font-sans">Focus on what really <br>
+        matters: the code.
+    </h2>
+    <p class="lg:text-2xl text-gray-500 pb-2 sm:max-w-[85%]">Build skills-based coding tests with tech
+        problems a developer would encounter on the
+        job — and hire the team behind your next big
         idea.
     </p>
-    <div class="flex items-center justify-center">
-    <a class="font-bold text-black">Request a demo</a>
-    <img src="Images\icons8-arrow-30.png" alt="arrow" class="ml-2 max-w-full h-auto">
+    <div class="flex items-center justify-center mt-5">
+        <a class="lg:font-bold font-medium text-black" href="#">Request a demo</a>
+        <img src="Images/icons8-arrow-30.png" alt="arrow">
     </div>
-</div>
-    <div data-aos="fade-up-left">
-        <img src="Images/code-1.png" class="max-w-full mt-mt-[-30px]" width="600">
+  </div>
+    <div class="w-full lg:w-[55%]" data-aos="fade-up-left">
+        <img style=" 
+        box-shadow:0px 9px 30px rgba(255, 149, 5, 0.3);" src="Images/code-1.png">
     </div>
-    </div>
-</div>
-</section>
 </div>
 
-<div class="parent-container flex items-center justify-center pt-20">
-<section class="binary flex h-60vh pt-20 pr-15rem pb-5rem pl-15rem relative mx-auto">
-  <div class="flex-1 mr-2 text-center">
-      <h2 class="text-4xl pb-2 font-sans">Identify top contenders</h2>
-      <p class="text-2xl text-gray-500 pb-2 line-2rem">Identify top contenders and invite them to meet<br>
-          your team using data-driven decisions that help<br> level the playing field for developers <br>
+<!-- third -->
+<div class="w-5/6 flex gap-4 items-center flex-col lg:flex-row mb-8 lg:mb-16 justify-between mx-auto">
+  <div class="w-full lg:w-[45%] flex flex-col justify-center items-center text-center">
+      <h2 class="lg:text-4xl text-2xl pb-2 font-sans">Identify top contenders</h2>
+      <p class="lg:text-2xl text-gray-500 pb-2 sm:max-w-[85%]">Identify top contenders and invite them to meet
+          your team using data-driven decisions that help level the playing field for developers
           everywhere.
       </p>
-      <div class="flex items-center justify-center">
-          <a>Learn more</a>
-          <img src="Images\icons8-arrow-30.png">
-      </div>
+      <div class="flex items-center justify-center mt-5">
+            <a class="lg:font-bold font-medium text-black" href="#">Learn More</a>
+            <img src="Images/icons8-arrow-30.png" alt="arrow">
+        </div>
   </div>
-  <div data-aos="fade-up-left">
-      <img src="Images/contenders.png" class="max-w-full mt-[-40px]" width="600">
+  <div data-aos="fade-up-left" class="w-full lg:w-[55%]">
+      <img style=" 
+      box-shadow:0px 9px 30px rgba(255, 149, 5, 0.3);" src="Images/contenders.png">
   </div>
-</section> 
+
 </div>
 
     <section class="interviews flex flex-col items-center justify-center" id="interviews">
-      <p class="pb-2">:: Technical interviews ::</p>
-      <h1 class="text-5xl font-light font-sans pb-2">Interview like it’s <span class="text-green-500">2024</span></h1>
+      <p class="pb-2 py-28">:: Technical interviews ::</p>
+      <h1 class="lg:text-5xl text-2xl font-sans pb-2">Interview like it’s <span class="text-green-500">2024</span></h1>
       <p class="text-gray-500 text-lg pb-2 leading-7">Ditch out of reach and out of touch interview questions about golf balls and 747s —<br>
           and turn off your clunky screen share for good. Code, create, and collaborate with an<br>
           IDE built to showcase real-world skills in a real-world environment.</p>
       <button class="bg-green-500 text-white px-8 py-4 font-bold border border-darkgreen rounded-full">
         <a href="https://www.hackerrank.com/products/developer-skills-platform/interview/">Learn More</a></button>
-      <div class="tools flex w-full justify-between items-center">
-          <img src="Images/tool1.png" class="max-w-[calc(100%/7)]">
-          <img src="Images/tool2.png" class="max-w-[calc(100%/7)]">
-          <img src="Images/tool3.png" class="max-w-[calc(100%/7)]">
-          <img src="Images/tool4.png" class="max-w-[calc(100%/7)]">
-          <img src="Images/tool5.png" class="max-w-[calc(100%/7)]">
-          <img src="Images/tool6.png" class="max-w-[calc(100%/7)]">
-          <img src="Images/tool7.png" class="max-w-[calc(100%/7)]">
-      </div>
+     
+      <div  class="tools flex w-full justify-between items-center">
+        <div data-aos="fade-up"><img src="Images/tool1.png" class="max-w-full h-auto"></div>
+        <div data-aos="fade-up"><img src="Images/tool2.png" class="max-w-full h-auto"></div>
+        <div data-aos="fade-up"><img src="Images/tool3.png" class="max-w-full h-auto"></div>
+        <div data-aos="fade-up"><img src="Images/tool4.png" class="max-w-full h-auto"></div>
+        <div data-aos="fade-up"><img src="Images/tool5.png" class="max-w-full h-auto"></div>
+        <div data-aos="fade-up"><img src="Images/tool6.png" class="max-w-full h-auto"></div>
+        <div data-aos="fade-up"><img src="Images/tool7.png" class="max-w-full h-auto"></div>
+    </div>
+    
+
       <div class="last-image mt-9 text-center relative">
-          <img src="Images/interview-2.png" class="max-w-[1084px] w-full">
-      </div>
+        <img src="Images/interview-2.png" class="max-w-full h-auto">
+    </div>
   </section>
   
 
-<section class="about mx-auto max-w-1180">
-  <div class="content flex flex-wrap justify-between items-start pt-5">
-      <div class="left mb-8 ml-10">
-          <h3 class="text-3xl leading-1.3 text-gray-800 font-light mb-2 font-sans">Every company is a tech company.<br>
-              <span class="text-green-600">We’re here to help ‘em all.</span></h3>
-          <p class="text-base font-light leading-15 mb-4 font-sans text-2xl text-gray-500">More than 3,000 tech teams, representing all industries and from <br>
+<section class="flex justify-center items-center text-center mx-auto mt-16 max-w-1180">
+      <div class="left mb-8 mx-2 md:mx-10  md:w-1/2 lg:w-5/12">
+          <h3 class="text-3xl leading-1.3 text-gray-800 font-light mb-2 font-sans">
+              Every company is a tech company.<br>
+              <span class="text-green-600">We’re here to help ‘em all.</span>
+          </h3>
+          <p class="text-base font-light leading-15 mb-4 font-sans text-xl text-gray-500">
+              More than 3,000 tech teams, representing all industries and from <br>
               countries around the world, trust HackerRank to connect with developers <br>
-              and add cutting-edge skills to their teams.</p>
+              and add cutting-edge skills to their teams.
+          </p>
           <p class="text-base font-light mb-4">That includes 25% of the Fortune 100 — and that <br> moonshot startup that just came out of stealth.</p>
       </div>
-      <div class="logos flex items-center justify-center mt-6 w-full">
-          <img src="Images/peloton_black.png" class="max-w-[91px] mx-2">
-          <img src="Images/atlassian_black.png" class="max-w-[131px] mx-2">
-          <img src="Images/bloomberg_black.png" class="max-w-[91px] mx-2">
-          <img src="Images/vmware_black.png" class="max-w-[91px] mx-2">
-          <img src="Images/stripe_black.png" class="max-w-[91px] mx-2">
-          <img src="Images/goldmansachs_black.png" class="max-w-[91px] mx-2">
-          <img src="Images/adobe_black.png" class="max-w-[91px] mx-2">
-          <img src="Images/linkedin_black.png" class="max-w-[91px] mx-2">
+    </section>      
+     
+
+      <div id="images"  class="w-full flex flex-wrap lg:pl-36">
+        <img class="w-[91px] h-[60px] mr-[50px] mv-[40px]" src="Images/peloton_black.png" alt="">
+        <img class="w-[139px] h-[60px] mr-[50px] mv-[40px]"  src="Images/atlassian_black.png" alt="">
+        <img class="w-[91px] h-[60px] mr-[50px] mv-[40px]"  src="Images/bloomberg_black.png" alt="">
+        <img class="w-[91px] h-[60px] mr-[50px] mv-[40px]"  src="Images/vmware_black.png" alt="">
+        <img class="w-[90px] h-[60px] mr-[50px] mv-[40px]"  src="Images/stripe_black.png" alt="">
+        <img class="w-[121px] h-[60px] mr-[50px] mv-[40px]"  src="Images/goldmansachs_black.png" alt="">
+        <img class="w-[89px] h-[60px] mr-[50px] mv-[40px]"  src="Images/adobe_black.png" alt="">
+        <img class="w-[115px] h-[60px] mr-[50px] mv-[40px]"  src="Images/linkedin_black.png" alt="">        
       </div>
-  </div>
-</section>
   
-   <section class="mt-10">
-    <div class="hr_container max-w-7xl mx-auto p-8 bg-gradient-to-b from-opacity-40 via-opacity-10 to-opacity-40">
-        <div class="home22-links-content flex justify-between px-4 md:px-8">
-            <div class="home22-links-item w-48 mx-2 md:mx-4">
+
+   <!-- <section class="mt-10 flex" style="background: linear-gradient(to bottom, white, #E8F6ED);">
+            <div class="w-1/2 flex flex-col justify-center items-start px-36 py-36 mx-2 md:mx-4">
                 <h3 class="text-2xl md:text-3xl font-semibold mb-2 md:mb-3 font-sans">
                     Practice coding challenges <br class="mt-2"><span class="text-green-600">& prep for interviews</span>
                 </h3>
@@ -299,10 +297,10 @@
                     Start practicing your skills now and land the job<br> of your dreams.
                 </p>
                 <p>
-                    <a href="#" class="btn text-base text-white border-1 border-solid border-green-600 bg-green-600 rounded-4 leading-6 py-2 px-4 text-center">Join the community</a>
+                    <a href="./Signup.html" class="btn text-base text-white border-1 border-solid border-green-600 bg-green-600 rounded-4 leading-6 py-2 px-4 text-center">Join the community</a>
                 </p>
             </div>
-            <div class="home22-links-item w-48 mx-2 md:mx-4">
+            <div class=" w-1/2 flex flex-col justify-center items-start px-36 py-36  mx-2 md:mx-4">
                 <h3 class="text-2xl md:text-3xl font-semibold mb-2 md:mb-3">
                     Get started <span class="text-green-600">hiring with <br class="mt-2">HackerRank</span>
                 </h3>
@@ -310,12 +308,36 @@
                     More than 3,000 tech teams, representing all industries and from countries around the world, trust HackerRank
                 </p>
                 <p>
-                    <a href="#" class="btn text-base text-white border-1 border-solid border-green-600 bg-green-600 rounded-4 leading-6 py-2 px-4 text-center">Request a Demo</a>
+                    <a href="../Anchit/request_demo.html" class="btn text-base text-white border-1 border-solid border-green-600 bg-green-600 rounded-4 leading-6 py-2 px-4 text-center">Request a Demo</a>
                 </p>
             </div>
-        </div>
-    </div>
+</section> -->
+
+<section class="mt-10 flex flex-col md:flex-row" style="background: linear-gradient(to bottom, white, #E8F6ED);">
+  <div class="w-full md:w-1/2 flex flex-col justify-center items-center md:items-start px-4 md:px-36 py-36 md:py-36 mx-2 md:mx-4">
+      <h3 class="text-2xl md:text-3xl font-semibold mb-2 md:mb-3 font-sans text-center md:text-left">
+          Practice coding challenges <br class="mt-2"><span class="text-green-600">& prep for interviews</span>
+      </h3>
+      <p class="text-base md:text-lg text-gray-700 mb-3 md:mb-4 font-sans text-center md:text-left">
+          Start practicing your skills now and land the job<br> of your dreams.
+      </p>
+      <p class="text-center md:text-left">
+          <a href="./Signup.html" class="btn text-base text-white border-1 border-solid border-green-600 bg-green-600 rounded-4 leading-6 py-2 px-4 text-center">Join the community</a>
+      </p>
+  </div>
+  <div class="w-full md:w-1/2 flex flex-col justify-center items-center md:items-start px-4 md:px-36 py-36 md:py-36 mx-2 md:mx-4">
+      <h3 class="text-2xl md:text-3xl font-semibold mb-2 md:mb-3 text-center md:text-left">
+          Get started <span class="text-green-600">hiring with <br class="mt-2">HackerRank</span>
+      </h3>
+      <p class="text-base md:text-lg text-gray-700 mb-3 md:mb-4 text-center md:text-left">
+          More than 3,000 tech teams, representing all industries and from countries around the world, trust HackerRank
+      </p>
+      <p class="text-center md:text-left">
+          <a href="../Anchit/request_demo.html" class="btn text-base text-white border-1 border-solid border-green-600 bg-green-600 rounded-4 leading-6 py-2 px-4 text-center">Request a Demo</a>
+      </p>
+  </div>
 </section>
+
   
     <footer class="text-gray-600 body-font">
         <div class="flex w-[87%] mx-auto flex-wrap md:text-left text-center  px-5 py-24 justify-evenly">
@@ -452,24 +474,26 @@
           </div>
       </div>
   </footer>
+
+
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
       </script>
       <script>
-        const hamburger = document.querySelector('.hamburger');
-        const bar1 = document.querySelector('.bar1');
-        const bar2 = document.querySelector('.bar2');
-        const bar3 = document.querySelector('.bar3');
-        const mobileNav = document.querySelector('.mobileNav');
+    
+    document.addEventListener("DOMContentLoaded", function() {
+        const menu = document.getElementById("menu");
 
-hamburger.addEventListener('click' , ()=>{
-    bar1.classList.toggle("animateBar1");
-    bar2.classList.toggle("animateBar2");
-    bar3.classList.toggle("animateBar3");
-    mobileNav.classList.toggle("openDrawer");
-});
-      </script>
+        menu.addEventListener("click", function() {
+            // Toggle the visibility of the menu items
+            const menuItems = document.querySelector(".menu-items");
+            menuItems.classList.toggle("hidden");
+        });
+    });
+</script>
+      
+      
 
 </body>
 </html>
