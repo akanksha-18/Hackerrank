@@ -28,6 +28,7 @@ Introducing our HackerRank clone: A platform designed to challenge and hone codi
 1. [Akansha Dubey]() (Team Captain)
 2. [Anchit Julaniya]()
 3. [Abhishek Pal]()
+4. [Ranita Ghosh]()
 
 - We embarked on an exciting collaboration to mirror the refined aesthetics of the HackerRank website. Our collective effort centered on capturing the visual essence of the original, showcasing our skills in this creative venture.
 ---
@@ -102,6 +103,17 @@ Throughout the development of our HackerRank Clone Website Project, our team enc
   4. Challenge 4 - Implementing Features:
     - Challenge: Adding features such as video playback, user authentication, and search functionality.
     - Resolution: Use JavaScript to implement these features. Utilize HTML5 video tags for video playback, and implement user authentication using a backend service or simulated authentication for the prototype. 
+
+![image](https://github.com/akanksha-18/Hackerrank/assets/76443240/1c4413d2-bd1f-4d2c-8afc-9bdd9c67f4bc)
+![image](https://github.com/akanksha-18/Hackerrank/assets/76443240/d44f2b89-d6cd-40c5-bf10-6f39ed544f90)
+![image](https://github.com/akanksha-18/Hackerrank/assets/76443240/73f8da3a-771a-4e6c-bd70-9561cf4ba9fd)
+![image](https://github.com/akanksha-18/Hackerrank/assets/76443240/34ea98d2-9bbd-4a4f-9844-e29ce6e6c9be)
+![image](https://github.com/akanksha-18/Hackerrank/assets/76443240/2f093a0e-8319-43cb-a01b-312614596bf7)
+![image](https://github.com/akanksha-18/Hackerrank/assets/76443240/7b3f9008-95c0-432a-b1e1-b7774b4947fa)
+![image](https://github.com/akanksha-18/Hackerrank/assets/76443240/e4628fa4-f15a-44e6-82d7-458ae555f941)
+![image](https://github.com/akanksha-18/Hackerrank/assets/76443240/ae42633b-3300-448a-af8c-5ed72c026060)
+![image](https://github.com/akanksha-18/Hackerrank/assets/76443240/ade7e345-21a3-4714-849d-67bb489fd652)
+
 
 ## CONCLUSION
 ---
