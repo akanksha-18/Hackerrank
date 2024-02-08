@@ -8,10 +8,10 @@ Welcome to my HackerRank clone project! This web development endeavor is my inte
 
 
 ## Table of Contents :-
-1.Introduction
-2.My Work
-3.Technologies Used
-4.UI Design
+1.[Introduction]()
+2.[My Work]()
+3.[Technologies Used]()
+4.[UI Design]()
 
 ---
 ## Introduction:
