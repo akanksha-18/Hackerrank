@@ -526,7 +526,17 @@
 <!-- body end -->
 
 <!-- script -->
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+      const menu = document.getElementById("menu");
 
+      menu.addEventListener("click", function() {
+          // Toggle the visibility of the menu items
+          const menuItems = document.querySelector(".menu-items");
+          menuItems.classList.toggle("hidden");
+      });
+  });
+</script>
 <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 </body>
 </html>
