@@ -111,6 +111,8 @@ Throughout the development of our HackerRank Clone Website Project, our team enc
 ![image](https://github.com/akanksha-18/Hackerrank/assets/76443240/2f093a0e-8319-43cb-a01b-312614596bf7)
 ![image](https://github.com/akanksha-18/Hackerrank/assets/76443240/7b3f9008-95c0-432a-b1e1-b7774b4947fa)
 ![image](https://github.com/akanksha-18/Hackerrank/assets/76443240/e4628fa4-f15a-44e6-82d7-458ae555f941)
+![image](https://github.com/akanksha-18/Hackerrank/assets/76443240/ae42633b-3300-448a-af8c-5ed72c026060)
+![image](https://github.com/akanksha-18/Hackerrank/assets/76443240/ade7e345-21a3-4714-849d-67bb489fd652)
 
 
 ## CONCLUSION
