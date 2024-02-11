@@ -7,6 +7,7 @@ let output = document.getElementById('output')
 function provideCode () {
     const language = document.getElementById('language');
     console.log(language.value);
+    
     if (language.value == 'javascript') {
         code.innerHTML = `(function main()  
     {console.log('Hello World!');
